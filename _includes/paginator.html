@@ -1,0 +1,49 @@
+
+{% if paginator.total_pages != 1 %}
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            {% if paginator.previous_page %}
+              <li class="page-item">
+            {% else %}
+              <li class="page-item disabled">
+            {% endif %}
+                <a class="page-link" href="{{ paginator.previous_page_path }}" tabindex="-1">Previous</a>
+              </li>
+            {% for page in (1..paginator.total_pages) %}
+              {% if page == paginator.page %}
+                <li class="page-item active">
+                  {% if page == 1 %}
+                    <a class="page-link" href="/index.html">{{ page }}</a>
+                  {% else %}
+                    <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                  {% endif%}
+                </li>
+              {% elsif page == 1 %}
+                <li class="page-item">
+                  <!-- <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>-->
+                  <a class="page-link" href="/index.html">{{ page }}</a>
+                </li>
+              {% else %}
+                <li class="page-item">
+                  <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+            {% if paginator.next_page %}
+              <li class="page-item">
+            {% else %}
+              <li class="page-item disabled">
+            {% endif %}
+                <a class="page-link" href="{{ paginator.next_page_path }}">Next</a>
+              </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+{% else %}
+{% endif %}

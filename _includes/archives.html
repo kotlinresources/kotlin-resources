@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-lg-9">
+
+      <article>
+
+        <div class="list-group posts">
+          {% for post in page.posts %}
+            <a href="{{ post.url | prepend: site.baseurl }}" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <h3 class="mb-1">{{ post.title }}</h3>
+                <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+              </div>
+              <p class="mb-1">{{ post.tagline }}</p>
+              <small>by {{ post.author.display_name }}</small>
+            </a>
+          {% endfor %}
+        </ul>
+
+      </article>
+
+    </div>
+
+  {% include related.html %}
+
+  </div>
+</div>

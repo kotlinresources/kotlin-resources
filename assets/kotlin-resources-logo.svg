@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="106px" height="148px" viewBox="0 0 106 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>color copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 36 36 36 72 0 36"></polygon>
+        <polygon id="path-2" points="40 0 76 36 76 72 40 36"></polygon>
+        <polygon id="path-3" points="28 10 100 82 100 118 28 46"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-copy-4" transform="translate(-117.000000, -47.000000)">
+            <g id="color-copy" transform="translate(70.000000, 57.000000)">
+                <g id="Group" transform="translate(107.000000, 55.000000) rotate(90.000000) translate(-107.000000, -55.000000) translate(69.000000, 19.000000)">
+                    <g id="Rectangle-Copy-11">
+                        <use fill="#7060A7" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <path stroke="#FFFFFF" stroke-width="4" d="M1.41421356,-1.41421356 L-2,-4.82842712 L-2,0 L-2,36 L-2,36.8284271 L-1.41421356,37.4142136 L34.5857864,73.4142136 L38,76.8284271 L38,72 L38,36 L38,35.1715729 L37.4142136,34.5857864 L1.41421356,-1.41421356 Z"></path>
+                    </g>
+                    <g id="Rectangle-Copy-10" transform="translate(58.000000, 36.000000) scale(-1, 1) translate(-58.000000, -36.000000) ">
+                        <use fill="#7060A7" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <path stroke="#FFFFFF" stroke-width="4" d="M41.4142136,-1.41421356 L38,-4.82842712 L38,0 L38,36 L38,36.8284271 L38.5857864,37.4142136 L74.5857864,73.4142136 L78,76.8284271 L78,72 L78,36 L78,35.1715729 L77.4142136,34.5857864 L41.4142136,-1.41421356 Z"></path>
+                    </g>
+                </g>
+                <g id="Rectangle-Copy-8" transform="translate(64.000000, 64.000000) rotate(45.000000) translate(-64.000000, -64.000000) ">
+                    <use fill="#7060A7" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <path stroke="#FFFFFF" stroke-width="4" d="M29.4142136,8.58578644 L26,5.17157288 L26,10 L26,46 L26,46.8284271 L26.5857864,47.4142136 L98.5857864,119.414214 L102,122.828427 L102,118 L102,82 L102,81.1715729 L101.414214,80.5857864 L29.4142136,8.58578644 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

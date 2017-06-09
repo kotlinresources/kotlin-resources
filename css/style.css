@@ -1,0 +1,90 @@
+body{ font-family: 'Hind', sans-serif; }
+header{ color: #fff; }
+footer{ margin: 0}
+footer div.row{ height: 10rem;}
+footer .container-fluid{ background-color: #eee;margin-top: 5rem}
+.card-wrapper{ margin-bottom: 30px!important; }
+.row:first-child{ margin-top: 0px; }
+.navbar{ background-color:#7060A7; }
+.navbar a{ color: #fff!important; }
+.navbar a:hover{  }
+.navbar .makery{
+  display: flex;
+  margin-left: 2.3rem;
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+.display-3{ font-weight: 700; }
+.tag-list, .category-list{ margin-top: 10px }
+.tag-list a, .category-list a{ color:#fff; text-decoration: underline; margin-top: 10px}
+.tag-list a:hover, .category-list a:hover{ color:#fff;text-decoration: none; }
+.source-url{ color:#fff;opacity: 0.5 }
+.source-url:hover{ color:#fff }
+.posts a h3 { color: #7060A7}
+.posts a small { color: #7060A7;opacity: 0.75}
+
+// Algolia
+.aa-input-container { display: inline-block; position: relative; }
+.aa-input-search {
+  width: 100%;
+  padding: 5%;
+  border:0 solid;
+  border-radius: 100px;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+.aa-input-search::-webkit-search-decoration, .aa-input-search::-webkit-search-cancel-button, .aa-input-search::-webkit-search-results-button, .aa-input-search::-webkit-search-results-decoration {
+  display: none; }
+.aa-input-icon {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 50%;
+  right: 8%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  fill: #7060A7;}
+.search-icon-sm { position: absolute; right: 2%!important; }
+.search-input-sm { width: 16rem; padding:3%!important }
+.aa-dropdown-menu {
+  color:#000;
+  text-align: left;
+  background-color: #fff;
+  min-width: 200px;
+  left:8%!important;
+  box-sizing: border-box;}
+.aa-suggestion {
+  padding: 12px;
+  cursor: pointer;}
+.aa-suggestion + .aa-suggestion {
+  border-top: 1px solid rgba(228, 228, 228, 0.6);}
+.aa-suggestion:hover, .aa-suggestion.aa-cursor {
+  background-color: rgba(241, 241, 241, 0.35); }
+.input-has-value .aa-input-icon {
+  opacity: 0; }
+.aa-input-close {
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  top: 50%;
+  right: 8%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  fill: #e4e4e4;
+  visibility: hidden;
+  opacity: 0; }
+.input-has-value .aa-input-close {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer; }
+.algolia__result-highlight {
+  font-weight: bold;}
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion div {
+  font-size:0.75rem;
+  text-decoration: none;
+  color: #B7AFD3;
+}
+span.algolia-autocomplete{
+  width: 100%!important;
+}
