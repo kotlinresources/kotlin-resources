@@ -76,7 +76,7 @@ algolia:
   excluded_files:
     - index.html
   settings:
-    distinct: twitter_username
+    distinct: true
     attributesToIndex:
       - title
       - categories
