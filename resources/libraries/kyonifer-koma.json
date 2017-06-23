@@ -1,0 +1,8 @@
+{
+  "name" : "kyonifer/koma",
+  "sourceUrl" : "https://github.com/kyonifer/koma",
+  "mavenMetaUrl" : "https://dl.bintray.com/kyonifer/maven/koma/core/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "math" ]
+}

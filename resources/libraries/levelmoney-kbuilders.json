@@ -1,0 +1,8 @@
+{
+  "name" : "levelmoney/kbuilders",
+  "sourceUrl" : "https://github.com/Levelmoney/kbuilders",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

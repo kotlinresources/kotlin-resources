@@ -1,0 +1,8 @@
+{
+  "name" : "glimpseframework/glimpse-framework",
+  "sourceUrl" : "https://github.com/GlimpseFramework/glimpse-framework",
+  "mavenMetaUrl" : "https://dl.bintray.com/glimpse-framework/org.glimpseframework/org/glimpseframework/glimpse-framework/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "graphics" ]
+}

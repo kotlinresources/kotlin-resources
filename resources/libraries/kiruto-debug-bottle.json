@@ -1,0 +1,8 @@
+{
+  "name" : "kiruto/debug-bottle",
+  "sourceUrl" : "https://github.com/kiruto/debug-bottle",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/exyui/android/debug-bottle-runtime/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "tool" ]
+}

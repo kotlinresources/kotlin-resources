@@ -1,0 +1,8 @@
+{
+  "name" : "chibatching/kotpref",
+  "sourceUrl" : "https://github.com/chibatching/Kotpref",
+  "mavenMetaUrl" : "https://dl.bintray.com/chibatching/maven/com/chibatching/kotpref/enum-support/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

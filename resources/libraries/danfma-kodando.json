@@ -1,0 +1,8 @@
+{
+  "name" : "danfma/kodando",
+  "sourceUrl" : "https://github.com/danfma/kodando",
+  "mavenMetaUrl" : "https://dl.bintray.com/danfma/maven/br/danfma/kodando/maven-metadata.xml",
+  "platform" : "JS",
+  "category" : "library",
+  "tags" : [ "frontend" ]
+}

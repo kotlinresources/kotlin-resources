@@ -1,0 +1,8 @@
+{
+  "name" : "lightningkite/kotlin-core",
+  "sourceUrl" : "https://github.com/lightningkite/kotlin-core",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

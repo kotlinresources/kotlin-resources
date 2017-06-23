@@ -1,0 +1,8 @@
+{
+  "name" : "soywiz/korui",
+  "sourceUrl" : "https://github.com/soywiz/korui",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/soywiz/korui/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "ui" ]
+}

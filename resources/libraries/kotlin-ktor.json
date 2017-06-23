@@ -1,0 +1,8 @@
+{
+  "name" : "kotlin/ktor",
+  "sourceUrl" : "https://github.com/Kotlin/ktor",
+  "mavenMetaUrl" : "https://kotlin.bintray.com/ktor/org/jetbrains/ktor/ktor-core/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "backend", "web" ]
+}

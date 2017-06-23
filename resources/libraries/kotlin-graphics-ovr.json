@@ -1,0 +1,8 @@
+{
+  "name" : "kotlin-graphics/ovr",
+  "sourceUrl" : "https://github.com/kotlin-graphics/ovr",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "graphics" ]
+}

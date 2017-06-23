@@ -1,0 +1,8 @@
+{
+  "name" : "kittinunf/result",
+  "sourceUrl" : "https://github.com/kittinunf/Result",
+  "mavenMetaUrl" : "https://dl.bintray.com/kittinunf/maven/com/github/kittinunf/result/result/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "functional" ]
+}

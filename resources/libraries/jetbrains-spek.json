@@ -1,0 +1,8 @@
+{
+  "name" : "jetbrains/spek",
+  "sourceUrl" : "https://github.com/jetbrains/spek",
+  "mavenMetaUrl" : "https://dl.bintray.com/jetbrains/spek/org/jetbrains/spek/spek-api/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "test" ]
+}

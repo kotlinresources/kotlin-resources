@@ -1,0 +1,8 @@
+{
+  "name" : "phxql/aleksa",
+  "sourceUrl" : "https://github.com/phxql/aleksa",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/de/mkammerer/aleksa/aleksa/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

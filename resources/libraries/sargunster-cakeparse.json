@@ -1,0 +1,8 @@
+{
+  "name" : "sargunster/cakeparse",
+  "sourceUrl" : "https://github.com/sargunster/CakeParse",
+  "mavenMetaUrl" : "https://dl.bintray.com/sargunster/maven/me/sargunvohra/lib/cakeparse/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

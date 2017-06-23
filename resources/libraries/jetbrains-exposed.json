@@ -1,0 +1,8 @@
+{
+  "name" : "jetbrains/exposed",
+  "sourceUrl" : "https://github.com/jetbrains/Exposed",
+  "mavenMetaUrl" : "https://dl.bintray.com/kotlin/exposed/org/jetbrains/exposed/exposed/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "database" ]
+}

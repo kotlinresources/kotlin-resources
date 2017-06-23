@@ -1,0 +1,8 @@
+{
+  "name" : "jupf/staticlog",
+  "sourceUrl" : "https://github.com/jupf/staticlog",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/io/github/jupf/staticlog/staticlog/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

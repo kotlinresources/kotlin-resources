@@ -1,0 +1,8 @@
+{
+  "name" : "marcinmoskala/activitystarter",
+  "sourceUrl" : "https://github.com/MarcinMoskala/ActivityStarter",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/MarcinMoskala/ActivityStarter/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

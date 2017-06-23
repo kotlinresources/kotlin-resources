@@ -1,0 +1,8 @@
+{
+  "name" : "pardom/redux-kotlin",
+  "sourceUrl" : "https://github.com/pardom/redux-kotlin",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/pardom/redux-kotlin/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "functional" ]
+}

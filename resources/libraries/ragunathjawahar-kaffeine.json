@@ -1,0 +1,8 @@
+{
+  "name" : "ragunathjawahar/kaffeine",
+  "sourceUrl" : "https://github.com/ragunathjawahar/kaffeine",
+  "mavenMetaUrl" : "https://oss.sonatype.org/content/repositories/snapshots/com/mobsandgeeks/kaffeine/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

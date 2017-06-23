@@ -1,0 +1,8 @@
+{
+  "name" : "kotlin-graphics/uno-sdk",
+  "sourceUrl" : "https://github.com/kotlin-graphics/uno-sdk",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/kotlin-graphics/uno-sdk/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "graphics" ]
+}

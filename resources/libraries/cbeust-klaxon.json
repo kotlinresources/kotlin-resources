@@ -1,0 +1,8 @@
+{
+  "name" : "cbeust/klaxon",
+  "sourceUrl" : "https://github.com/cbeust/klaxon",
+  "mavenMetaUrl" : "https://dl.bintray.com/cbeust/maven/com/beust/klaxon/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "json" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "winterbe/expekt",
+  "sourceUrl" : "https://github.com/winterbe/expekt",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/winterbe/expekt/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "test" ]
+}

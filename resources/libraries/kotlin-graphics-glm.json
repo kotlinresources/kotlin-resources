@@ -1,0 +1,8 @@
+{
+  "name" : "kotlin-graphics/glm",
+  "sourceUrl" : "https://github.com/kotlin-graphics/glm",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/kotlin-graphics/glm/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "graphics" ]
+}

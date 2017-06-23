@@ -1,0 +1,8 @@
+{
+  "name" : "andrewoma/kwery",
+  "sourceUrl" : "https://github.com/andrewoma/kwery",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/github/andrewoma/kwery/core/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "database" ]
+}

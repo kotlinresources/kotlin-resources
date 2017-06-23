@@ -1,0 +1,8 @@
+{
+  "name" : "brianmadden/krawler",
+  "sourceUrl" : "https://github.com/brianmadden/krawler",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/brianmadden/krawler/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "web" ]
+}

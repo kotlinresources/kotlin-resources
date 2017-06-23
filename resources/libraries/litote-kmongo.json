@@ -1,0 +1,8 @@
+{
+  "name" : "litote/kmongo",
+  "sourceUrl" : "https://github.com/Litote/kmongo",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/org/litote/kmongo/kmongo/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "database" ]
+}

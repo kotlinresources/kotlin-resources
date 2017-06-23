@@ -1,0 +1,8 @@
+{
+  "name" : "czyzby/kotlin-times",
+  "sourceUrl" : "https://github.com/czyzby/kotlin-times",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/github/czyzby/kotlin-times/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

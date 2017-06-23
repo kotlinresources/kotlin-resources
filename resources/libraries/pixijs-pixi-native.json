@@ -1,0 +1,8 @@
+{
+  "name" : "pixijs/pixi-native",
+  "sourceUrl" : "https://github.com/pixijs/pixi-native",
+  "mavenMetaUrl" : "",
+  "platform" : "JS",
+  "category" : "library",
+  "tags" : [ "frontend" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "epadronu/balin",
+  "sourceUrl" : "https://github.com/EPadronU/balin",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "test" ]
+}

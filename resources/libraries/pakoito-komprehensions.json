@@ -1,0 +1,8 @@
+{
+  "name" : "pakoito/komprehensions",
+  "sourceUrl" : "https://github.com/pakoito/Komprehensions",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/pakoito/Komprehensions/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "functional" ]
+}

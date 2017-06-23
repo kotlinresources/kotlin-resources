@@ -1,0 +1,8 @@
+{
+  "name" : "fboldog/ext4klaxon",
+  "sourceUrl" : "https://github.com/fboldog/ext4klaxon",
+  "mavenMetaUrl" : "https://dl.bintray.com/fboldog/maven/com/fboldog/ext4klaxon/ext4klaxon/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "json" ]
+}

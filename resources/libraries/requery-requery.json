@@ -1,0 +1,8 @@
+{
+  "name" : "requery/requery",
+  "sourceUrl" : "https://github.com/requery/requery",
+  "mavenMetaUrl" : "https://dl.bintray.com/requery/requery/io/requery/requery/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "database" ]
+}

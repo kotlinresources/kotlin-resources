@@ -1,0 +1,8 @@
+{
+  "name" : "icela/friceengine",
+  "sourceUrl" : "https://github.com/icela/FriceEngine",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/icela/FriceEngine/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "frontend", "graphics" ]
+}

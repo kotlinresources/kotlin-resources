@@ -1,0 +1,8 @@
+{
+  "name" : "glimpseframework/glimpse-framework-android",
+  "sourceUrl" : "https://github.com/GlimpseFramework/glimpse-framework-android",
+  "mavenMetaUrl" : "https://dl.bintray.com/glimpse-framework/org.glimpseframework/org/glimpseframework/glimpse-framework-android/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "graphics" ]
+}

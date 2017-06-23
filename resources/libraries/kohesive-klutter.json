@@ -1,0 +1,8 @@
+{
+  "name" : "kohesive/klutter",
+  "sourceUrl" : "https://github.com/kohesive/klutter",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/uy/kohesive/klutter/klutter-core/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

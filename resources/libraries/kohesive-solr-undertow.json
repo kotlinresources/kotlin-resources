@@ -1,0 +1,8 @@
+{
+  "name" : "kohesive/solr-undertow",
+  "sourceUrl" : "https://github.com/kohesive/solr-undertow",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/uy/kohesive/solr/solr-undertow/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

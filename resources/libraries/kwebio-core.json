@@ -1,0 +1,8 @@
+{
+  "name" : "kwebio/core",
+  "sourceUrl" : "https://github.com/kwebio/core",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/sanity/kweb/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "web" ]
+}

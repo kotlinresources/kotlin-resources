@@ -1,0 +1,8 @@
+{
+  "name" : "joelw-s/groothy",
+  "sourceUrl" : "https://github.com/JoelW-S/groothy",
+  "mavenMetaUrl" : "https://dl.bintray.com/jdws/maven/com/joelws/groothy/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

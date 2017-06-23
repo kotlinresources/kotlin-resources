@@ -1,0 +1,8 @@
+{
+  "name" : "stangls/kotlin-js-jquery",
+  "sourceUrl" : "https://github.com/stangls/kotlin-js-jquery",
+  "mavenMetaUrl" : "",
+  "platform" : "JS",
+  "category" : "library",
+  "tags" : [ "frontend" ]
+}

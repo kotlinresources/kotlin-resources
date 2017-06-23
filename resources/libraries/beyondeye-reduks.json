@@ -1,0 +1,8 @@
+{
+  "name" : "beyondeye/reduks",
+  "sourceUrl" : "https://github.com/beyondeye/Reduks",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/beyondeye/reduks/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "functional" ]
+}

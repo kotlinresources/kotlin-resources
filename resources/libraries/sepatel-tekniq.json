@@ -1,0 +1,8 @@
+{
+  "name" : "sepatel/tekniq",
+  "sourceUrl" : "https://github.com/sepatel/tekniq",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/io/tekniq/tekniq-core/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "web" ]
+}

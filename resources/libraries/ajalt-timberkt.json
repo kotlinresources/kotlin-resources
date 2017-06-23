@@ -1,0 +1,8 @@
+{
+  "name" : "ajalt/timberkt",
+  "sourceUrl" : "https://github.com/ajalt/timberkt",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/ajalt/timberkt/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

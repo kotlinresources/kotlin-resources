@@ -1,0 +1,8 @@
+{
+  "name" : "kohesive/kovert",
+  "sourceUrl" : "https://github.com/kohesive/kovert",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/uy/kohesive/kovert/kovert-vertx/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "backend", "web" ]
+}

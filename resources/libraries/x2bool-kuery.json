@@ -1,0 +1,8 @@
+{
+  "name" : "x2bool/kuery",
+  "sourceUrl" : "https://github.com/x2bool/kuery",
+  "mavenMetaUrl" : "https://dl.bintray.com/x2bool/maven/com/nivabit/kuery/core/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "database" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "zserge/anvil",
+  "sourceUrl" : "https://github.com/zserge/anvil",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/co/trikita/anvil-sdk15/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

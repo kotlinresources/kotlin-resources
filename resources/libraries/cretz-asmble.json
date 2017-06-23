@@ -1,0 +1,8 @@
+{
+  "name" : "cretz/asmble",
+  "sourceUrl" : "https://github.com/cretz/asmble",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/cretz/asmble/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

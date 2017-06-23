@@ -1,0 +1,8 @@
+{
+  "name" : "kailan/kodeinject",
+  "sourceUrl" : "https://github.com/kailan/kodeinject",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/pw/kmp/kodeinject/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

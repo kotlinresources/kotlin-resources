@@ -1,0 +1,8 @@
+{
+  "name" : "cesarferreira/kotlin-pluralizer",
+  "sourceUrl" : "https://github.com/cesarferreira/kotlin-pluralizer",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/cesarferreira/kotlin-pluralizer/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

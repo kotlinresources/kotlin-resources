@@ -1,0 +1,8 @@
+{
+  "name" : "npryce/hamkrest",
+  "sourceUrl" : "https://github.com/npryce/hamkrest",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/natpryce/hamkrest/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "test" ]
+}

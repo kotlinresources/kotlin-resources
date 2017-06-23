@@ -1,0 +1,8 @@
+{
+  "name" : "vkostyukov/kotlin-sublime-package",
+  "sourceUrl" : "https://github.com/vkostyukov/kotlin-sublime-package",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "editor" ]
+}

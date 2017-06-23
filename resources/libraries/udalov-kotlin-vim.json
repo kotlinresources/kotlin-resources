@@ -1,0 +1,8 @@
+{
+  "name" : "udalov/kotlin-vim",
+  "sourceUrl" : "https://github.com/udalov/kotlin-vim",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "editor" ]
+}

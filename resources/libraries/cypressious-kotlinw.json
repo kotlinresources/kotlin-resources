@@ -1,0 +1,8 @@
+{
+  "name" : "cypressious/kotlinw",
+  "sourceUrl" : "https://github.com/cypressious/KotlinW",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "tool" ]
+}

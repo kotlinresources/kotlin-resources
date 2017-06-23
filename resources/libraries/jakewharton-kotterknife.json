@@ -1,0 +1,8 @@
+{
+  "name" : "jakewharton/kotterknife",
+  "sourceUrl" : "https://github.com/JakeWharton/kotterknife",
+  "mavenMetaUrl" : "https://oss.sonatype.org/content/repositories/snapshots/com/jakewharton/kotterknife/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

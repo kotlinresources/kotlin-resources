@@ -1,0 +1,8 @@
+{
+  "name" : "bennywang/kbinding",
+  "sourceUrl" : "https://github.com/BennyWang/KBinding",
+  "mavenMetaUrl" : "https://dl.bintray.com/bennywang/maven/com/benny/library/kbinding/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "kittinunf/fuel",
+  "sourceUrl" : "https://github.com/kittinunf/Fuel",
+  "mavenMetaUrl" : "https://dl.bintray.com/kittinunf/maven/com/github/kittinunf/fuel/fuel/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "http" ]
+}

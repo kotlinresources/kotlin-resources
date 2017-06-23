@@ -1,0 +1,8 @@
+{
+  "name" : "jankotek/mapdb",
+  "sourceUrl" : "https://github.com/jankotek/mapdb",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/org/mapdb/mapdb/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "database" ]
+}

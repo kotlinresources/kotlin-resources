@@ -1,0 +1,8 @@
+{
+  "name" : "debop/koda-time",
+  "sourceUrl" : "https://github.com/debop/koda-time",
+  "mavenMetaUrl" : "https://dl.bintray.com/debop/maven/com/github/debop/koda-time/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

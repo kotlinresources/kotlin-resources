@@ -1,0 +1,8 @@
+{
+  "name" : "ftomassetti/kanvas",
+  "sourceUrl" : "https://github.com/ftomassetti/kanvas",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "editor" ]
+}

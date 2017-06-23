@@ -1,0 +1,8 @@
+{
+  "name" : "brianegan/bansa",
+  "sourceUrl" : "https://github.com/brianegan/bansa",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "functional" ]
+}

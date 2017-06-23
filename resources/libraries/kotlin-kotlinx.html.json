@@ -1,0 +1,8 @@
+{
+  "name" : "kotlin/kotlinx.html",
+  "sourceUrl" : "https://github.com/Kotlin/kotlinx.html",
+  "mavenMetaUrl" : "https://dl.bintray.com/kotlin/kotlinx.html/org/jetbrains/kotlinx/kotlinx-html/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "web" ]
+}

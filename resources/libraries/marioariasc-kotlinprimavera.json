@@ -1,0 +1,8 @@
+{
+  "name" : "marioariasc/kotlinprimavera",
+  "sourceUrl" : "https://github.com/MarioAriasC/KotlinPrimavera",
+  "mavenMetaUrl" : "https://dl.bintray.com/marioariasc/KotlinPrimavera/org/kotlinprimavera/core/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "backend" ]
+}

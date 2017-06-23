@@ -1,0 +1,8 @@
+{
+  "name" : "nhaarman/mockito-kotlin",
+  "sourceUrl" : "https://github.com/nhaarman/mockito-kotlin",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/nhaarman/mockito-kotlin/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "test" ]
+}

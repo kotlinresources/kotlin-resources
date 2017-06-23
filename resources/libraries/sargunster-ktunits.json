@@ -1,0 +1,8 @@
+{
+  "name" : "sargunster/ktunits",
+  "sourceUrl" : "https://github.com/sargunster/KtUnits",
+  "mavenMetaUrl" : "https://dl.bintray.com/sargunster/maven/me/sargunvohra/lib/ktunits/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "s4kibs4mi/pultusorm",
+  "sourceUrl" : "https://github.com/s4kibs4mi/PultusORM",
+  "mavenMetaUrl" : "https://jitpack.io/ninja/sakib/PultusORM/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "database" ]
+}

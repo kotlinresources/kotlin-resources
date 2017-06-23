@@ -1,0 +1,8 @@
+{
+  "name" : "infotech-group/android-drawable-dsl",
+  "sourceUrl" : "https://github.com/infotech-group/android-drawable-dsl",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/infotech-group/android-drawable-dsl/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "markusamshove/kluent",
+  "sourceUrl" : "https://github.com/MarkusAmshove/Kluent",
+  "mavenMetaUrl" : "https://dl.bintray.com/markusamshove/maven/org/amshove/kluent/kluent/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "test" ]
+}

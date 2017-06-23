@@ -1,0 +1,8 @@
+{
+  "name" : "gimlet2/kottpd",
+  "sourceUrl" : "https://github.com/gimlet2/kottpd",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/github/gimlet2/kottpd/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "http" ]
+}

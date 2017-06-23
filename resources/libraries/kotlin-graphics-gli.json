@@ -1,0 +1,8 @@
+{
+  "name" : "kotlin-graphics/gli",
+  "sourceUrl" : "https://github.com/kotlin-graphics/gli",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "graphics" ]
+}

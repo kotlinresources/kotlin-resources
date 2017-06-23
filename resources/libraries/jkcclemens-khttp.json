@@ -1,0 +1,8 @@
+{
+  "name" : "jkcclemens/khttp",
+  "sourceUrl" : "https://github.com/jkcclemens/khttp",
+  "mavenMetaUrl" : "https://dl.bintray.com/jkcclemens/maven/khttp/khttp/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "http" ]
+}

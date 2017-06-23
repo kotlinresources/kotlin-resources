@@ -1,0 +1,8 @@
+{
+  "name" : "danielmartinus/konfetti",
+  "sourceUrl" : "https://github.com/DanielMartinus/Konfetti",
+  "mavenMetaUrl" : "https://dl.bintray.com/danielmartinus/maven/nl/dionsegijn/konfetti/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "ui" ]
+}

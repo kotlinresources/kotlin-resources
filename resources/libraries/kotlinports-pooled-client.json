@@ -1,0 +1,8 @@
+{
+  "name" : "kotlinports/pooled-client",
+  "sourceUrl" : "https://github.com/KotlinPorts/pooled-client",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "database" ]
+}

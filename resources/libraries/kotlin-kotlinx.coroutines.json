@@ -1,0 +1,8 @@
+{
+  "name" : "kotlin/kotlinx.coroutines",
+  "sourceUrl" : "https://github.com/kotlin/kotlinx.coroutines",
+  "mavenMetaUrl" : "https://kotlin.bintray.com/kotlinx/org/jetbrains/kotlinx/kotlinx-coroutines/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "async" ]
+}

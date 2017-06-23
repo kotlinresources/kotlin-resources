@@ -1,0 +1,8 @@
+{
+  "name" : "hotchemi/khronos",
+  "sourceUrl" : "https://github.com/hotchemi/khronos",
+  "mavenMetaUrl" : "https://dl.bintray.com/hotchemi/maven/com/github/hotchemi/khronos/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

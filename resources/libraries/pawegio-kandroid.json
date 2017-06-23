@@ -1,0 +1,8 @@
+{
+  "name" : "pawegio/kandroid",
+  "sourceUrl" : "https://github.com/pawegio/KAndroid",
+  "mavenMetaUrl" : "https://dl.bintray.com/pawegio/maven/com/pawegio/kandroid/kandroid/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

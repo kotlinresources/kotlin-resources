@@ -1,0 +1,8 @@
+{
+  "name" : "jire/kton",
+  "sourceUrl" : "https://github.com/Jire/KTON",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/org/jire/kton/KTON/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "json" ]
+}

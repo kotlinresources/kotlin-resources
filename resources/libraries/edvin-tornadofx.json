@@ -1,0 +1,8 @@
+{
+  "name" : "edvin/tornadofx",
+  "sourceUrl" : "https://github.com/edvin/tornadofx",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/no/tornado/tornadofx/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "desktop" ]
+}

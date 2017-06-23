@@ -1,0 +1,8 @@
+{
+  "name" : "salomonbrys/kotson",
+  "sourceUrl" : "https://github.com/SalomonBrys/Kotson",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/github/salomonbrys/kotson/kotson/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "json" ]
+}

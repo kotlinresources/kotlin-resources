@@ -1,0 +1,8 @@
+{
+  "name" : "java-graphics/assimp",
+  "sourceUrl" : "https://github.com/java-graphics/assimp",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "graphics" ]
+}

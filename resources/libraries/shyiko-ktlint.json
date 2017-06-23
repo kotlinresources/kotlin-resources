@@ -1,0 +1,8 @@
+{
+  "name" : "shyiko/ktlint",
+  "sourceUrl" : "https://github.com/shyiko/ktlint",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/github/shyiko/ktlint/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "tool" ]
+}

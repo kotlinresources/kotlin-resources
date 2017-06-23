@@ -1,0 +1,8 @@
+{
+  "name" : "vert-x3/vertx-lang-kotlin",
+  "sourceUrl" : "https://github.com/vert-x3/vertx-lang-kotlin/",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/io/vertx/vertx-lang-kotlin/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "web" ]
+}

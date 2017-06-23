@@ -1,0 +1,8 @@
+{
+  "name" : "holgerbrandl/krangl",
+  "sourceUrl" : "https://github.com/holgerbrandl/krangl",
+  "mavenMetaUrl" : "https://dl.bintray.com/holgerbrandl/mpicbg-scicomp/de/mpicbg/scicomp/krangl/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "math" ]
+}

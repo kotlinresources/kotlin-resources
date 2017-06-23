@@ -1,0 +1,8 @@
+{
+  "name" : "kotlin-graphics/openvr",
+  "sourceUrl" : "https://github.com/kotlin-graphics/openvr",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "graphics" ]
+}

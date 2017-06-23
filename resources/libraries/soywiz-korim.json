@@ -1,0 +1,8 @@
+{
+  "name" : "soywiz/korim",
+  "sourceUrl" : "https://github.com/soywiz/korim",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/soywiz/korim/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "async" ]
+}

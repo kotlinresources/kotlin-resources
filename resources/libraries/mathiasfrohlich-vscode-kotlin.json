@@ -1,0 +1,8 @@
+{
+  "name" : "mathiasfrohlich/vscode-kotlin",
+  "sourceUrl" : "https://github.com/mathiasfrohlich/vscode-kotlin",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "editor" ]
+}

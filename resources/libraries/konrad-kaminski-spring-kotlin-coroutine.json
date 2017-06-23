@@ -1,0 +1,8 @@
+{
+  "name" : "konrad-kaminski/spring-kotlin-coroutine",
+  "sourceUrl" : "https://github.com/konrad-kaminski/spring-kotlin-coroutine",
+  "mavenMetaUrl" : "https://dl.bintray.com/konrad-kaminski/maven/org/springframework/kotlin/spring-kotlin-coroutine/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "async" ]
+}

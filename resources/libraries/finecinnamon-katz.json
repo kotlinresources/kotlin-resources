@@ -1,0 +1,8 @@
+{
+  "name" : "finecinnamon/katz",
+  "sourceUrl" : "https://github.com/FineCinnamon/Katz",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/kategory/kategory/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "functional" ]
+}

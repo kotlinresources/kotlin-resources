@@ -1,0 +1,8 @@
+{
+  "name" : "kotlin/kotlin-frontend-plugin",
+  "sourceUrl" : "https://github.com/Kotlin/kotlin-frontend-plugin",
+  "mavenMetaUrl" : "https://dl.bintray.com/kotlin/kotlin-eap/org/jetbrains/kotlin/kotlin-frontend-plugin/maven-metadata.xml",
+  "platform" : "JS",
+  "category" : "library",
+  "tags" : [ "tool" ]
+}

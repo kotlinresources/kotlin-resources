@@ -1,0 +1,8 @@
+{
+  "name" : "arturbosch/detekt",
+  "sourceUrl" : "https://github.com/arturbosch/detekt",
+  "mavenMetaUrl" : "https://dl.bintray.com/arturbosch/code-analysis/io/gitlab/arturbosch/detekt/detekt-gradle-plugin/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "tool" ]
+}

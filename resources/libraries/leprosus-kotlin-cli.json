@@ -1,0 +1,8 @@
+{
+  "name" : "leprosus/kotlin-cli",
+  "sourceUrl" : "https://github.com/leprosus/kotlin-cli",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

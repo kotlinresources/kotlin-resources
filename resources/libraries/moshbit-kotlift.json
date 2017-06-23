@@ -1,0 +1,8 @@
+{
+  "name" : "moshbit/kotlift",
+  "sourceUrl" : "https://github.com/moshbit/Kotlift",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

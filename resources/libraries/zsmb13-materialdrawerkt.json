@@ -1,0 +1,8 @@
+{
+  "name" : "zsmb13/materialdrawerkt",
+  "sourceUrl" : "https://github.com/zsmb13/MaterialDrawerKt",
+  "mavenMetaUrl" : "https://dl.bintray.com/zsmb13/MaterialDrawerKt/co/zsmb/materialdrawer-kt/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "ui" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "jetbrains/intellij-community",
+  "sourceUrl" : "https://github.com/JetBrains/intellij-community",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "editor" ]
+}

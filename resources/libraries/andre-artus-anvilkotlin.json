@@ -1,0 +1,8 @@
+{
+  "name" : "andre-artus/anvilkotlin",
+  "sourceUrl" : "https://github.com/andre-artus/AnvilKotlin",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/andre-artus/AnvilKotlin/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "ui" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "moove-it/fakeit",
+  "sourceUrl" : "https://github.com/moove-it/fakeit",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/moove-it/fakeit/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

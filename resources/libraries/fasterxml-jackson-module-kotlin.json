@@ -1,0 +1,8 @@
+{
+  "name" : "fasterxml/jackson-module-kotlin",
+  "sourceUrl" : "https://github.com/FasterXML/jackson-module-kotlin",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-kotlin/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "json" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "danielmartinus/stepper-touch",
+  "sourceUrl" : "https://github.com/DanielMartinus/Stepper-Touch",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/DanielMartinus/Stepper-Touch/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

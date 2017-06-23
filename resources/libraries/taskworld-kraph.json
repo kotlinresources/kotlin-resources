@@ -1,0 +1,8 @@
+{
+  "name" : "taskworld/kraph",
+  "sourceUrl" : "https://github.com/taskworld/kraph",
+  "mavenMetaUrl" : "https://dl.bintray.com/tw/maven/com/taskworld/kraph/kraph/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "web" ]
+}

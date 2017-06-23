@@ -1,0 +1,8 @@
+{
+  "name" : "kotlin-graphics/kotlin-unsigned",
+  "sourceUrl" : "https://github.com/kotlin-graphics/kotlin-unsigned",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/kotlin-graphics/kotlin-unsigned/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

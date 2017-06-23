@@ -1,0 +1,8 @@
+{
+  "name" : "kotlin/anko",
+  "sourceUrl" : "https://github.com/Kotlin/anko",
+  "mavenMetaUrl" : "https://dl.bintray.com/jetbrains/anko/org/jetbrains/anko/anko/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

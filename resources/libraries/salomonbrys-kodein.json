@@ -1,0 +1,8 @@
+{
+  "name" : "salomonbrys/kodein",
+  "sourceUrl" : "https://github.com/SalomonBrys/Kodein",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/github/salomonbrys/kodein/kodein/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

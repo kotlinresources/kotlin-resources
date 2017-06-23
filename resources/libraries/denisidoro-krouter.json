@@ -1,0 +1,8 @@
+{
+  "name" : "denisidoro/krouter",
+  "sourceUrl" : "https://github.com/denisidoro/krouter",
+  "mavenMetaUrl" : "https://dl.bintray.com/denisidoro/maven/com/github/denisidoro/github/krouter/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

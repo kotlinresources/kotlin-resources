@@ -1,0 +1,8 @@
+{
+  "name" : "marioariasc/funktionale",
+  "sourceUrl" : "https://github.com/MarioAriasC/funKTionale",
+  "mavenMetaUrl" : "https://dl.bintray.com/marioariasc/funKTionale/org/funktionale/funktionale-all/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "functional" ]
+}

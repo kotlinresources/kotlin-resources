@@ -1,0 +1,8 @@
+{
+  "name" : "grandstaish/paperparcel",
+  "sourceUrl" : "https://github.com/grandstaish/paperparcel",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/nz/bradcampbell/paperparcel-kotlin/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

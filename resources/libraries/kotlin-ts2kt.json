@@ -1,0 +1,8 @@
+{
+  "name" : "kotlin/ts2kt",
+  "sourceUrl" : "https://github.com/kotlin/ts2kt",
+  "mavenMetaUrl" : "",
+  "platform" : "JS",
+  "category" : "library",
+  "tags" : [ "frontend", "tool" ]
+}

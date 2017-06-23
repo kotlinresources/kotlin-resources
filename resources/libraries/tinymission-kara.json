@@ -1,0 +1,8 @@
+{
+  "name" : "tinymission/kara",
+  "sourceUrl" : "https://github.com/TinyMission/kara",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "web" ]
+}

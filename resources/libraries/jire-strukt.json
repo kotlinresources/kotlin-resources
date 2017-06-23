@@ -1,0 +1,8 @@
+{
+  "name" : "jire/strukt",
+  "sourceUrl" : "https://github.com/Jire/Strukt",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/org/jire/strukt/strukt/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

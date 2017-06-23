@@ -1,0 +1,8 @@
+{
+  "name" : "marcinmoskala/kotlinpreferences",
+  "sourceUrl" : "https://github.com/MarcinMoskala/KotlinPreferences",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/marcinmoskala/kotlinpreferences/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

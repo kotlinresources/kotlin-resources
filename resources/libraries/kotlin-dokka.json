@@ -1,0 +1,8 @@
+{
+  "name" : "kotlin/dokka",
+  "sourceUrl" : "https://github.com/Kotlin/dokka",
+  "mavenMetaUrl" : "https://dl.bintray.com/kotlin/dokka/org/jetbrains/dokka/dokka-gradle-plugin/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "tool" ]
+}

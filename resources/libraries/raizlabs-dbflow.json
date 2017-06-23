@@ -1,0 +1,8 @@
+{
+  "name" : "raizlabs/dbflow",
+  "sourceUrl" : "https://github.com/Raizlabs/DBFlow",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/Raizlabs/DBFlow/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "database" ]
+}

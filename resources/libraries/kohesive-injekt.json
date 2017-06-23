@@ -1,0 +1,8 @@
+{
+  "name" : "kohesive/injekt",
+  "sourceUrl" : "https://github.com/kohesive/injekt",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/uy/kohesive/injekt/injekt-core/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

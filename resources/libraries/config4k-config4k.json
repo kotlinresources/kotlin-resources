@@ -1,0 +1,8 @@
+{
+  "name" : "config4k/config4k",
+  "sourceUrl" : "https://github.com/config4k/config4k",
+  "mavenMetaUrl" : "https://dl.bintray.com/config4k/config4k/io/github/config4k/config4k/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

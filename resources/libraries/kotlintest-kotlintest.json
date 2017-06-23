@@ -1,0 +1,8 @@
+{
+  "name" : "kotlintest/kotlintest",
+  "sourceUrl" : "https://github.com/kotlintest/kotlintest",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/io/kotlintest/kotlintest/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "test" ]
+}

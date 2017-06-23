@@ -1,0 +1,8 @@
+{
+  "name" : "leprosus/kotlin-hashids",
+  "sourceUrl" : "https://github.com/leprosus/kotlin-hashids",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "cheptsov/kotlin-nosql",
+  "sourceUrl" : "https://github.com/cheptsov/kotlin-nosql",
+  "mavenMetaUrl" : "http://repository.jetbrains.com/kotlin-nosql/org/jetbrains/kotlin/kotlin-nosql-mongodb/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "database" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "nitrico/lastadapter",
+  "sourceUrl" : "https://github.com/nitrico/LastAdapter",
+  "mavenMetaUrl" : "https://dl.bintray.com/moreno/maven/com/github/nitrico/lastadapter/lastadapter/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "kotlin/kotlinx.support",
+  "sourceUrl" : "https://github.com/Kotlin/kotlinx.support",
+  "mavenMetaUrl" : "https://dl.bintray.com/kotlin/kotlinx.support/org/jetbrains/kotlinx/kotlinx-support/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

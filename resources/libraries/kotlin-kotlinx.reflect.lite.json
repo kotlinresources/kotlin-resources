@@ -1,0 +1,8 @@
+{
+  "name" : "kotlin/kotlinx.reflect.lite",
+  "sourceUrl" : "https://github.com/Kotlin/kotlinx.reflect.lite",
+  "mavenMetaUrl" : "https://dl.bintray.com/kotlin/kotlinx.reflect.lite/org/jetbrains/kotlinx/kotlinx.reflect.lite/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

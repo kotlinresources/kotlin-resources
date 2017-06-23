@@ -1,0 +1,8 @@
+{
+  "name" : "ligee/kotlin-jupyter",
+  "sourceUrl" : "https://github.com/ligee/kotlin-jupyter",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "web" ]
+}

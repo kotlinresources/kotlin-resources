@@ -1,0 +1,8 @@
+{
+  "name" : "consoleau/kassava",
+  "sourceUrl" : "https://github.com/consoleau/kassava",
+  "mavenMetaUrl" : "https://dl.bintray.com/consoleau/kotlin/au/com/console/kassava/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

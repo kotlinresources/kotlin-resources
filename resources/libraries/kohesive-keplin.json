@@ -1,0 +1,8 @@
+{
+  "name" : "kohesive/keplin",
+  "sourceUrl" : "https://github.com/kohesive/keplin",
+  "mavenMetaUrl" : "https://dl.bintray.com/jaysonminard/kohesive/uy/kohesive/keplin/keplin-core/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "tool" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "h0tk3y/kotlin-monads",
+  "sourceUrl" : "https://github.com/h0tk3y/kotlin-monads",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/h0tk3y/kotlin-monads/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "functional" ]
+}

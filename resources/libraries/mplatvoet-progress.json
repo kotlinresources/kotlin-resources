@@ -1,0 +1,8 @@
+{
+  "name" : "mplatvoet/progress",
+  "sourceUrl" : "https://github.com/mplatvoet/progress",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/nl/komponents/progress/progress/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

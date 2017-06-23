@@ -1,0 +1,8 @@
+{
+  "name" : "metalabdesign/asyncawait",
+  "sourceUrl" : "https://github.com/metalabdesign/AsyncAwait",
+  "mavenMetaUrl" : "https://dl.bintray.com/metalab/maven/co/metalab/asyncawait/asyncawait/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "async" ]
+}

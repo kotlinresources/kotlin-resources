@@ -1,0 +1,8 @@
+{
+  "name" : "poetix/klenses",
+  "sourceUrl" : "https://github.com/poetix/klenses",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/codepoetics/klenses/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "functional" ]
+}

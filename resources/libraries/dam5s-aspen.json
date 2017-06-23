@@ -1,0 +1,8 @@
+{
+  "name" : "dam5s/aspen",
+  "sourceUrl" : "https://github.com/dam5s/aspen",
+  "mavenMetaUrl" : "https://dl.bintray.com/dam5s/maven/io/damo/aspen/aspen/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "test" ]
+}

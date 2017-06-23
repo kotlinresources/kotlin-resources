@@ -1,0 +1,8 @@
+{
+  "name" : "touk/bubble",
+  "sourceUrl" : "https://github.com/TouK/bubble",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/pl/touk/android/bubble/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

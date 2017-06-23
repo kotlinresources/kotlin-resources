@@ -1,0 +1,8 @@
+{
+  "name" : "xenomachina/kotlin-argparser",
+  "sourceUrl" : "https://github.com/xenomachina/kotlin-argparser",
+  "mavenMetaUrl" : "https://dl.bintray.com/xenomachina/maven/com/xenomachina/kotlin-argparser/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "tool" ]
+}

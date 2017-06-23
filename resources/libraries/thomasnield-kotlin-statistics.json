@@ -1,0 +1,8 @@
+{
+  "name" : "thomasnield/kotlin-statistics",
+  "sourceUrl" : "https://github.com/thomasnield/kotlin-statistics",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/org/nield/kotlinstatistics/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "math" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "soywiz/korio",
+  "sourceUrl" : "https://github.com/soywiz/korio",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/soywiz/korio/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "async" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "marcinmoskala/preferenceholder",
+  "sourceUrl" : "https://github.com/MarcinMoskala/PreferenceHolder",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/MarcinMoskala/PreferenceHolder/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

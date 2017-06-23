@@ -1,0 +1,8 @@
+{
+  "name" : "inaka/killertask",
+  "sourceUrl" : "https://github.com/inaka/KillerTask",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/inaka/killertask/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

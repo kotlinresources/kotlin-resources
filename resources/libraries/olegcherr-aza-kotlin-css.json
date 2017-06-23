@@ -1,0 +1,8 @@
+{
+  "name" : "olegcherr/aza-kotlin-css",
+  "sourceUrl" : "https://github.com/olegcherr/Aza-Kotlin-CSS",
+  "mavenMetaUrl" : "https://dl.bintray.com/azadev/maven/azadev/kotlin/aza-kotlin-css/maven-metadata.xml",
+  "platform" : "JS",
+  "category" : "library",
+  "tags" : [ "frontend" ]
+}

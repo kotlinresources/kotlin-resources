@@ -1,0 +1,8 @@
+{
+  "name" : "consoleau/kotlin-jpa-specification-dsl",
+  "sourceUrl" : "https://github.com/consoleau/kotlin-jpa-specification-dsl",
+  "mavenMetaUrl" : "https://dl.bintray.com/consoleau/kotlin/au/com/console/kotlin-jpa-specification-dsl/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "database" ]
+}

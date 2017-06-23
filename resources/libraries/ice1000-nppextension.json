@@ -1,0 +1,8 @@
+{
+  "name" : "ice1000/nppextension",
+  "sourceUrl" : "https://github.com/ice1000/NppExtension",
+  "mavenMetaUrl" : "",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "editor" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "microutils/kotlin-logging",
+  "sourceUrl" : "https://github.com/MicroUtils/kotlin-logging",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/io/github/microutils/kotlin-logging/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}

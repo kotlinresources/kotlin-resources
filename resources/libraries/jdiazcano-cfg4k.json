@@ -1,0 +1,8 @@
+{
+  "name" : "jdiazcano/cfg4k",
+  "sourceUrl" : "https://github.com/jdiazcano/cfg4k",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/jdiazcano/cfg4k/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}
