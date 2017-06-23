@@ -1,21 +1,47 @@
 <header>
-
-  <div class="jumbotron jumbotron-fluid" style="background-color:#7060A7">
+  <div class="jumbotron jumbotron-fluid frontpage-jumbotron">
     <div class="container text-center">
-      <h1 class="display-3">{{ site.title }}</h1>
+      <img src="{{ site.baseurl }}/assets/kotlin-logo.svg" width="70" height="70" class="d-inline-block align-top kotlin-logo" alt="">
+      <h1 class="display-3 site-name">{{ site.title }}</h1>
       <p class="lead">The ultimate resource list for your most loved coding language.</p>
       <div class="row">
         <div class="col-lg-6 offset-lg-3">
             {% include search-form-lg.html %}
         </div>
       </div>
-      <div class="tag-list">
-        {% for tag in site.tags %}
-          {% assign t = tag | first %}
-          <a href="tag/{{ t }}">{{ t }}</a>,
-        {% endfor %}
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="tag-list">
+            {% for tag in site.tags | limit: '5' %}
+              {% assign t = tag  | first %}
+              <a href="tag/{{ t }}">{{ t }}</a>,
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <ul class="nav nav-tabs frontpage-tab">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Libraries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" data-toggle="tooltip" data-html="true" data-placement="top" title="Coming, submit <u>yours</u>">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" data-toggle="tooltip" data-html="true" data-placement="top" title="Coming, submit <u>yours</u>">Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" data-toggle="tooltip" data-html="true" data-placement="top" title="Coming, submit <u>yours</u>">Posts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" data-toggle="tooltip" data-html="true" data-placement="top" title="Coming, submit <u>yours</u>">Jobs</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
 
+</div>
 </header>

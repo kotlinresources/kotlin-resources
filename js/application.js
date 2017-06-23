@@ -9,12 +9,12 @@ autocomplete('#aa-search-input', {
   debug: true,
   openOnFocus: false
 }, [{
-    source: autocomplete.sources.hits(index, {hitsPerPage: 10}),
+    source: autocomplete.sources.hits(index, {hitsPerPage: 5}),
     displayKey: 'title',
     templates: {
       suggestion: function(suggestion) {
         return suggestion._highlightResult.title.value +
-         "<div>" + suggestion._highlightResult.categories.value + "</div>";
+         "<div>" + suggestion._highlightResult.tags[0].value + "</div>";
       }
     }
   }
@@ -35,3 +35,7 @@ document.getElementById("icon-close").addEventListener("click", function() {
     inputContainer.classList.remove("input-has-value");
     document.getElementsByClassName("aa-dropdown-menu")[0].style.display = 'none';
 });
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})

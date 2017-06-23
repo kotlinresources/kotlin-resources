@@ -1,14 +1,16 @@
----
-layout: default
----
-<div>
+<!DOCTYPE html>
+<html>
 
-  <header>
-    <h1>{{ page.title }}</h1>
-  </header>
+  {% include main-head.html %}
 
-  <article>
-    {{ content }}
-  </article>
+  <body>
+    {% include page-nav.html %}
+    {% include page-header.html %}
 
-</div>
+    {% include pages.html %}
+
+    {% include main-footer.html %}
+    {% include _analytics.html %}
+  </body>
+
+</html>

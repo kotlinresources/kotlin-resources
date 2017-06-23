@@ -2,6 +2,8 @@
 
 set -e
 
+ruby json-crawler.rb
+
 bundle exec jekyll build
 bundle exec jekyll algolia push
 

@@ -1,45 +1,65 @@
 ---
-layout: default
+layout:         default
+title:          Awesome Kotlin Resources
+description:
 ---
 <div class="container">
   <div class="row">
-    {% for post in paginator.posts %}
-      {% assign loopindex = forloop.index | modulo: 4 %}
 
-      {% if loopindex == 1 %}
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-3 card-wrapper" style="display:flex" {{loopindex}}>
-          <div class="card" style="width:100%">
-            <img class="card-img-top" data-src="holder.js/100px100/" alt="Card image cap">
-            <div class="card-block">
-                  <h4 class="card-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
-                  <p class="card-text">{{ post.description }}</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-            <div class="card-footer">
-              <a href="{{ site.baseurl }}/category/{{ post.categories }}" class="btn btn-success btn-sm" role="button">{{ post.categories }}</a>
-            </div>
+    {% assign sortedPosts = paginator.posts | sort:'tags' %}
+    {% for post in sortedPosts %}
+        {% assign loopindex = forloop.index | modulo: 3 %}
+        {% if loopindex == 1 %}
           </div>
-        </div>
 
-      {% else %}
-
-        <div class="col-md-6 col-lg-3 card-wrapper" style="display:flex" {{loopindex}}>
-          <div class="card" style="width:100%">
-            <img class="card-img-top" data-src="holder.js/100px100/" alt="Card image cap">
-            <div class="card-block">
-                  <h4 class="card-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
-                  <p class="card-text">{{ post.description }}</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 card-wrapper" style="display:flex" {{loopindex}}>
+              <div class="card" style="width:100%">
+                <!-- {% if post.image %}
+                  <img class="card-img-top" src="{{ post.image }}" height="100" alt="{{ post.title }}">
+                {% endif %}-->
+                <div class="card-block">
+                      <h4 class="card-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.creator.name }} / {{ post.title }}</a></h4>
+                      <p class="card-text">{{ post.description }}</p>
+                      {% if post.maven.version %}
+                        <small class="text-muted" style="display:block">Version number: {{ post.maven.version }}</small>
+                      {% endif %}
+                        <small class="text-muted" style="display:block">Last updated: {{ post.date | date: "%Y-%m-%d" }}</small>
+                </div>
+                <div class="card-footer">
+                  {% for tag in post.tags %}
+                    <a href="{{ site.baseurl }}/tag/{{ tag }}" class="btn btn-success btn-sm" role="button">{{ tag }}</a>
+                  {% endfor %}
+                </div>
+              </div>
             </div>
-            <div class="card-footer">
-              <a href="{{ site.baseurl }}/category/{{ post.categories }}" class="btn btn-success btn-sm" role="button">{{ post.categories }}</a>
-            </div>
-          </div>
-        </div>
 
-      {% endif %}
+          {% else %}
+
+            <div class="col-md-6 col-lg-4 card-wrapper" style="display:flex" {{loopindex}}>
+              <div class="card" style="width:100%">
+                <!--{% if post.image %}
+                  <img class="card-img-top" src="{{ post.image }}" height="100" alt="{{ post.title }}">
+                {% endif %}-->
+                <div class="card-block">
+                      <h4 class="card-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.creator.name }} / {{ post.title }}</a></h4>
+                      <p class="card-text">{{ post.description }}</p>
+                      <p class="card-text">
+                        {% if post.maven.version %}
+                          <small class="text-muted" style="display:block">Version number: {{ post.maven.version }}</small>
+                        {% endif %}
+                          <small class="text-muted" style="display:block">Last updated: {{ post.date | date: "%Y-%m-%d" }}</small>
+                      </p>
+                </div>
+                <div class="card-footer">
+                  {% for tag in post.tags %}
+                    <a href="{{ site.baseurl }}/tag/{{ tag }}" class="btn btn-success btn-sm" role="button">{{ tag }}</a>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+
+        {% endif %}
     {% endfor %}
   </div>
 </div>

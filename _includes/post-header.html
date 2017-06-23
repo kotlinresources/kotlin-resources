@@ -2,21 +2,59 @@
 
 <header class="site-header">
 
-  <div class="jumbotron jumbotron-fluid" style="background-color:#7060A7">
+  <div class="jumbotron jumbotron-fluid page-jumbotron">
     <div class="container">
-      <h1 class="display-3">{{ page.title }}</h1>
-      <h5 class="display-5">{{ page.description }}</h5>
-      <span class="lead">by
-        <a class="source-url" href="{{ page.source-url }}" target="_blank">{{ page.author.display_name }}</a>
-        in
-        <a href="{{ site.baseurl }}/category/{{ page.categories }}" class="btn btn-success btn-sm" role="button">{{ page.categories }}</a>
-      </span>
-      <p>
-        <small>
-          {% assign readtime = page.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
-          Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
-        </small>
-      </p>
+      <div class="row">
+        {% if page.youtubeId %}
+          <div class="col-lg-6">
+        {% else if %}
+          <div class="col">
+        {% endif %}
+          <a class="source-url" href="{{ page.sourceUrl }}" target="_blank"><h1 class="display-3">{{ page.creator.name }} / {{ page.title }}</h1></a>
+          <h5 class="display-5">{{ page.description }}</h5>
+          <span class="lead">by
+            <a class="source-url" href="{{ page.sourceUrl }}" target="_blank">{{ page.creator.name }}</a>
+            in
+            {% for tag in page.tags %}
+              <a href="{{ site.baseurl }}/tag/{{ tag }}" class="btn btn-success btn-sm" role="button">{{ tag }}</a>
+            {% endfor %}
+          </span>
+          <p>
+            <small>
+              {% assign readtime = page.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
+              Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
+            </small>
+          </p>
+          {% if page.category != "article" %}
+            <p>
+              <a
+                class="github-button"
+                href="{{ page.sourceUrl }}"
+                data-size="large"
+                data-show-count="true"
+                data-icon="octicon-star"
+                aria-label="Star {{ page.title }} on GitHub">
+                Star
+              </a>
+              <a
+                class="github-button"
+                href="{{ page.sourceUrl }}/fork"
+                data-size="large"
+                data-show-count="true"
+                data-icon="octicon-repo-forked"
+                aria-label="Fork {{ page.title }} on GitHub">
+                Fork
+              </a>
+            </p>
+          {%  endif %}
+        </div>
+
+        {% if page.youtubeId %}
+          <div class="col-lg-6">
+              {% include _youtubePlayer.html id=page.youtubeId width=100 height=100 %}
+          </div>
+        {% endif %}
+      </div>
     </div>
   </div>
 

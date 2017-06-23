@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>color</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-82.000000, -82.000000)">
+            <g id="color" transform="translate(82.000000, 82.000000)">
+                <polygon id="Rectangle-Copy-11" fill="#00E676" points="60 0 120 60 120 120 60 60"></polygon>
+                <polygon id="Rectangle-Copy-7" fill="#FFEA00" transform="translate(30.000000, 45.000000) scale(-1, 1) translate(-30.000000, -45.000000) " points="0 0 60 60 30 90 0 60"></polygon>
+                <polygon id="Rectangle-Copy-10" fill="#00E5FF" transform="translate(150.000000, 60.000000) scale(-1, 1) translate(-150.000000, -60.000000) " points="120 0 180 60 180 120 120 60"></polygon>
+                <polygon id="Rectangle-Copy-9" fill="#D500F9" transform="translate(180.000000, 165.000000) scale(-1, 1) translate(-180.000000, -165.000000) " points="150 90 240 180 240 240 120 120"></polygon>
+                <polygon id="Rectangle-Copy-8" fill="#FF5252" points="0 60 120 180 120 240 0 120"></polygon>
+                <polygon id="Rectangle-Copy-6" fill="#00B0FF" points="180 0 240 60 240 120 180 60"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

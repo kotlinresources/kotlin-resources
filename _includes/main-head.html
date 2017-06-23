@@ -1,0 +1,25 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Bootsrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="{{ site.url }}/css/style.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/syntax.css?v=1.0">
+
+    <!-- Googe Font -->
+    <link href="https://fonts.googleapis.com/css?family=Hind:400,500,600,700" rel="stylesheet">
+    <title>
+      {% if page.category == "article" %}
+        {{ page.title }} - {{ site.title }}
+      {% else %}
+        {{ page.title }} - {{ page.description }} - {{ site.title }}
+      {% endif %}
+    </title>
+
+    {% seo title=false %}
+
+</head>

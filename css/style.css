@@ -3,17 +3,37 @@ header{ color: #fff; }
 footer{ margin: 0}
 footer div.row{ height: 10rem;}
 footer .container-fluid{ background-color: #eee;margin-top: 5rem}
-.card-wrapper{ margin-bottom: 30px!important; }
+textarea:focus, input:focus{outline: none;}
+.kotlin-logo{margin-right: 10px;filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=2, OffY=2,Color='#94418D')"; filter: url(#drop-shadow); -webkit-filter: drop-shadow(2px 2px 7px rgba(148,65,141,0.7));filter: drop-shadow(2px 2px 7px rgba(148,65,141,0.7));}
+.site-name{ display: inline;}
+.card-wrapper{ margin-bottom: 0px!important; }
+.card{margin-bottom: 30px}
+.text-muted{color:#bbb!important}
 .row:first-child{ margin-top: 0px; }
-.navbar{ background-color:#7060A7; }
+.navbar{ background-color:#C757BC; }
 .navbar a{ color: #fff!important; }
 .navbar a:hover{  }
-.navbar .makery{
-  display: flex;
-  margin-left: 2.3rem;
-  font-size: 0.8rem;
-  opacity: 0.5;
+.navbar .makery{ display: inline-grid; }
+.navbar .makery a{ display: inline-grid;font-size: 0.8rem;opacity: 0.5; }
+.navbar-brand img{
+	filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=2, OffY=2,Color='#444')";
+	filter: url(#drop-shadow);
+	-webkit-filter: drop-shadow(2px 2px 7px rgba(148,65,141,0.7));
+	filter: drop-shadow(2px 2px 7px rgba(148,65,141,0.7));
 }
+.nav-tabs { border-bottom: 0px!important}
+.nav-tabs .nav-link.disabled {color: rgba(255,255,255,0.5); background-color: transparent; border-color: transparent;}
+.submit-a-library{background-color: #AE4CA4;border-radius: 20px;padding-right: 1rem!important;padding-left: 1rem!important}
+.submit-a-library:hover{background-color: #94418C }
+.frontpage-jumbotron{ padding:0rem 1rem !important;background-color: #C757BC;background-image: linear-gradient( 180deg, #C757BC 0%, #FF8900 100%)}
+.page-jumbotron{background-color: #C757BC;background-image: linear-gradient( 180deg, #C757BC 0%, #FF8900 100%)}
+@media (min-width: 576px){ .frontpage-jumbotron { padding: 0rem 2rem!important }}
+.frontpage-tab{ margin-top: 2rem }
+.frontpage-tab .nav-link{ color: rgba(255,255,255,0.5) }
+.post-tab{}
+.post-tab a{ font-size: 1rem }
+.post-tab-data{font-size: 1rem;margin-bottom: 10%}
+.tab-pane{background-color: #f8f8f8 !important}
 .display-3{ font-weight: 700; }
 .tag-list, .category-list{ margin-top: 10px }
 .tag-list a, .category-list a{ color:#fff; text-decoration: underline; margin-top: 10px}
@@ -22,10 +42,22 @@ footer .container-fluid{ background-color: #eee;margin-top: 5rem}
 .source-url:hover{ color:#fff }
 .posts a h3 { color: #7060A7}
 .posts a small { color: #7060A7;opacity: 0.75}
+pre {padding: 3% !important}
+
+// Share buttons
+.share-page { text-align: center;color: #fff;padding: 0px;margin:0; }
+.share-page .icon { fill:#fff;width: 1rem;height: 1rem; position: relative;top: 3px;margin-right: 5px}
+.share-page a { display: block;margin-bottom: 3%;font-weight: 700; color: #fff;padding: 2%; padding-left: 5%;padding-right: 5%;border-radius: 4px;}
+.share-page a:hover { text-decoration: none}
+.rd-share{background-color: #fff;border:1px solid #666;color: #000 !important;}
+.tw-share{background-color: #00aced}
+.fb-share{background-color: #3B5997}
+.gp-share{background-color: #D64937}
 
 // Algolia
-.aa-input-container { display: inline-block; position: relative; }
+.aa-input-container { }
 .aa-input-search {
+  margin-left: 3%!important;
   width: 100%;
   padding: 5%;
   border:0 solid;

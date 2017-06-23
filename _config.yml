@@ -1,61 +1,80 @@
-# basics
+# Site settings
 title: Kotlin Resources
-email: hello@kotlinresources.com
-description: >
-  Kotlin dev resources
+email: hello@makery.co
+description: Ultimate Resources for Kotlin language
+url: "https://kotlinresources.com"
+baseurl: ""
+twitter:
+  username: HelloKotlin
 
-url: 'https://www.kotlinresources.com'
-baseurl: ''
-
-twitter_username: kotlinresources
-github_username: kotlinresources
-
-# owner
-owner:
-  name: Kotlin Resources by Makery
-  avatar: bio-photo.jpg
-  email: hello@kotlinresources.com
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
-  github: #username
-  stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
-  flickr: #username
-  tumblr: #username
-  pinterest: #username
-  weibo: #userid
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-
-# settings
-timezone: Europe/Budapest
-future: false
-
-permalink: '/:title'
-paginate: 2
-
-reading_time: true
+# Reading time settings
+reading_time:     true
 words_per_minute: 200
 
-# markdown
+# include _Pages
+include: ["_pages"]
+exclude:
+  - resources
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: assets/kotlin-resources-fb-share.png
+
+
+# Permalink settings
+permalink: /:categories/:title/
+relative_permalinks: false
+
+# Gems
+gems:
+  - algoliasearch-jekyll
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-gist
+
+# Owner/author information
+# Social networking links used in footer. Update and remove as you like.
+# google plus id, include the '+', eg +mmistakes
+author:
+  name:           Kotlin Resources by Makery
+  avatar:
+  bio:            "We're passionate about Kotlin."
+  email:          hello@makery.co
+  twitter:        wearemakery
+  facebook:       wearemakery
+  github:         kotlinresources
+  linkedin:       makerco
+  instagram:      wearemakery
+  google_plus:
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Budapest
+future:      false  # publish future dated posts --  true, false (default)
+
+# Amount of post to show on home page
+paginate: 100
+
+# Syntax settings
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-      css_class: 'highlight' 
+      # Rouge Options › https://github.com/jneen/rouge#full-options
+      css_class: 'highlight'
+      #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
       span:
         line_numbers: false
       block:
-        line_numbers: true
+        line_numbers: false
         start_line: 1
   auto_ids: true
   footnote_nr: 1
@@ -63,15 +82,26 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-# seo
-webmaster_verifications:
-  google: 1234
-  bing: 1234
-  alexa: 1234
-  yandex: 1234
+# Archives settings
+jekyll-archives:
+  enabled: [categories, tags]
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 
-# algolia
-algolia: 
+# SEO settings
+webmaster_verifications:
+#  google: UA-62927326-5
+#  bing: 1234
+#  alexa: 1234
+#  yandex: 1234
+
+# Algolia settings
+algolia:
   index_name: 'kotlinresources'
   excluded_files:
     - index.html
@@ -84,15 +114,3 @@ algolia:
       - tags
       - tagline
       - author
-
-# build
-gems:
-  - algoliasearch-jekyll
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
