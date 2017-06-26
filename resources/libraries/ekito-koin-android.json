@@ -1,0 +1,8 @@
+{
+  "name" : "ekito/koin-android",
+  "sourceUrl" : "https://github.com/Ekito/koin-android",
+  "mavenMetaUrl" : "https://dl.bintray.com/ekito/koin/org/koin/koin-android/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "di" ]
+}

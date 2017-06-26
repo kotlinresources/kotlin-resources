@@ -1,0 +1,8 @@
+{
+  "name" : "ekito/koin",
+  "sourceUrl" : "https://github.com/Ekito/koin",
+  "mavenMetaUrl" : "https://dl.bintray.com/ekito/koin/org/koin/koin-core/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic", "di" ]
+}
