@@ -4,11 +4,11 @@
   <div class="jumbotron jumbotron-fluid page-jumbotron" style="background-color:#7060A7">
     <div class="container">
       {% if page.type == "category" %}
-        <h1 class="display-3">{{ page.type }} '{{ page.title }}'</h1>
-        <p class="lead">- archive of posts</p>
+        <h1 class="display-3">'{{ page.title }}' Kotlin resources</h1>
+        <!-- <p class="lead">- archive of posts</p> -->
       {% elsif page.type == "tag" %}
-        <h1 class="display-3">{{ page.type }} '{{ page.title }}'</h1>
-        <p class="lead">- archive of posts</p>
+        <h1 class="display-3">'{{ page.title }}' Kotlin resources</h1>
+        <!--<p class="lead">- archive of posts</p> -->
       {% elsif page.type == "year" %}
         <h1 class="display-3">Archive of posts from {{ page.date | date: "%Y" }}</h1>
       {% elsif page.type == "month" %}

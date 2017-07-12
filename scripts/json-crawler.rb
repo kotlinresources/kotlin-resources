@@ -97,7 +97,11 @@ class Crawl
           #@brokenImgSrcReplace = Nokogiri::HTML.fragment(@file.read)
           #@brokenImgSrcReplace.css("img").each do |src|
           #  @tempSrc = src.attributes["src"].value
-          #  src.attributes["src"].value = 'https://raw.githubusercontent.com/' + @projectCreatorName + '/' + @projectName + '/master/' + @tempSrc
+          #  if @tempSrc.downcase =~ /http|https/
+          #   nada
+          #  else
+          #    src.attributes["src"].value = 'https://raw.githubusercontent.com/' + @projectCreatorName + '/' + @projectName + '/master/' + @tempSrc
+          #  end
           #end
           if (@contents << @file.read)
             puts 'GithubReadMe: ' + "\033[32m" +  'Added' + " \033[0m\n"
