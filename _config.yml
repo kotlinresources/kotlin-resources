@@ -43,11 +43,11 @@ gems:
 # Social networking links used in footer. Update and remove as you like.
 # google plus id, include the '+', eg +mmistakes
 author:
-  name:           Kotlin Resources by Makery
+  name:
   avatar:
   bio:            "We're passionate about Kotlin."
   email:          hello@makery.co
-  twitter:        wearemakery
+  twitter:        
   facebook:       wearemakery
   github:         kotlinresources
   linkedin:       makerco
@@ -80,7 +80,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  enable_coderay: false
+  enable_coderay: true
 
 # Archives settings
 jekyll-archives:

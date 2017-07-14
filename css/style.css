@@ -7,7 +7,7 @@ textarea:focus, input:focus{outline: none;}
 table tbody tr td, table thead tr th{border:1px solid #eaeaea;padding:0.5rem}
 table tbody tr:nth-of-type(odd) { background-color: rgba(0, 0, 0, 0.05); }
 .readme h1, .readme h2{border-bottom: 1px solid #eaeaea;margin-top: 2rem;margin-bottom: 1rem}
-.readme img{width: 100%}
+.readme img{max-width: 100%}
 .kotlin-logo{margin-right: 10px;filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=2, OffY=2,Color='#94418D')"; filter: url(#drop-shadow); -webkit-filter: drop-shadow(2px 2px 7px rgba(148,65,141,0.7));filter: drop-shadow(2px 2px 7px rgba(148,65,141,0.7));}
 .site-name{ display: inline;}
 .card-wrapper{ margin-bottom: 0px!important; }

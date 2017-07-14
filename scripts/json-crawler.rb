@@ -9,6 +9,7 @@ class Crawl
   require 'rubygems'
   require 'json'
   require 'pp'
+  require 'mini_magick'
 
   HR                      = "----------------------------"
 
@@ -85,6 +86,21 @@ class Crawl
     return @tempDescription
   end
 
+  def fixRelativePath( str )
+    @tempUrl = 'https://github.com/' + @projectCreatorName + '/' + @projectName + '/tree/master/'
+    str.gsub %r{\[([^\]]+)\]\(((?!http|www\.|\#|\.com|\.net|\.info|\.org).*?)\)}x, '[\1]('+ @tempUrl + '\2)'
+  end
+
+  def fixImgRealtiveSrc( str )
+    @tempImgSrc = 'https://raw.githubusercontent.com/' + @projectCreatorName + '/' + @projectName + '/master/'
+    str.gsub %r{src=[\"']((?!http|https).*?)[\"'].*?}x, 'src="' + @tempImgSrc + '\1"'
+  end
+
+  def fixImgMissingAlt( str )
+    @tempImgAlt = @projectName + ' by ' + @projectCreatorName
+    str.gsub %r{<(img(?!.*?alt=(['"]).*?\2)[^>]*).\/>}x, '<\1' + ' alt="' + @tempImgAlt + '" />'
+  end
+
   def addGithubReadMe
     @tryReadmeRawUrlIsValid = ""
     @listOfReadmes.each do |valid|
@@ -92,18 +108,11 @@ class Crawl
       @readmeWeb = HTTParty.get(@readmeRawUrl)
       case @readmeWeb.code
         when 200
-          @file = open(@readmeRawUrl)
-          #@brokenImgSrcReplace =
-          #@brokenImgSrcReplace = Nokogiri::HTML.fragment(@file.read)
-          #@brokenImgSrcReplace.css("img").each do |src|
-          #  @tempSrc = src.attributes["src"].value
-          #  if @tempSrc.downcase =~ /http|https/
-          #   nada
-          #  else
-          #    src.attributes["src"].value = 'https://raw.githubusercontent.com/' + @projectCreatorName + '/' + @projectName + '/master/' + @tempSrc
-          #  end
-          #end
-          if (@contents << @file.read)
+          if @file = open(@readmeRawUrl)
+            @contents << @file.read
+            @contents = fixImgMissingAlt(@contents)
+            @contents = fixImgRealtiveSrc(@contents)
+            @contents = fixRelativePath(@contents)
             puts 'GithubReadMe: ' + "\033[32m" +  'Added' + " \033[0m\n"
           else
             puts "\033[31m" + "Error" + "\033[0m\n"
@@ -241,6 +250,32 @@ class Crawl
     hr
   end
 
+  def shareImgGenerate(projectName, projectDescription)
+    MiniMagick::Tool::Convert.new do |convert|
+      convert << "../assets/kotlin-resources-grad-v1.png"
+      convert.size "800x200"
+      convert.background "Transparent"
+      convert.gravity "Center"
+      convert.fill "#ffffff"
+      convert.font "../assets/Hind/Hind-Medium.ttf"
+      convert.caption "#{projectDescription}"
+      convert.geometry "+0+100"
+      convert.antialias
+      convert.composite
+      convert.size "1000x300"
+      convert.background "Transparent"
+      convert.gravity "Center"
+      convert.fill "#ffffff"
+      convert.font "../assets/Hind/Hind-Bold.ttf"
+      convert.caption "#{projectName}"
+      convert.geometry "+0-80"
+      convert.antialias
+      convert.composite
+      convert << "../assets/img/libraries/#{projectName}.jpg"
+    end
+    puts "Image generated: " + "\033[32m" + "../assets/img/libraries/#{projectName}.jpg" + " \033[0m\n"
+  end
+
   def parseJSON
     clear
     collectJSON
@@ -250,17 +285,6 @@ class Crawl
       @json = File.read(url)
       @library = JSON.parse(@json)
 
-      # új rész
-      #puts @isValidDir = @library["mavenMeta"]["groupId"] + '.' + @library["name"]
-      #puts Dir.exists?(@isValidDir)
-      #Dir.glob(Dir.pwd + '/' + @isValidDir +'/*.md') do |file|
-      #  puts @alma = File.basename(file).to_s.split("-")[0..2].join("-")
-      #  puts @a = DateTime.now.strftime("%Y-%m-%d")
-      #   if ( @alma < @a )
-      #    puts 'do it'
-      #  end
-      #end
-      # eddig
       @COUNTER +=1
       puts @COUNTER.to_s + '/' + @jsonArray.length.to_s
       puts "Library: " + "\033[32m" + @library["name"] + " \033[0m\n"
@@ -268,33 +292,34 @@ class Crawl
       begin
         xmlParse(@library["mavenMetaUrl"])
 
-        @contents = '---'                                                                                               + "\n"
-        @contents << 'layout: '          +    'post'                                                                    + "\n"
-        @contents << 'platform: '        +    ( @projectPlatform          = @library["platform"]                      ) + "\n"
-        @contents << 'title: '           +    ( @projectName              = @library["name"].split('/')[1]            ) + "\n"
-        @contents << 'description: '     +    ( @projectDescription       = addDescription(@library["sourceUrl"])     ) + "\n"
-        @contents << 'category: '        +    ( @projectCategory          = @library["category"]                      ) + "\n"
-        @contents << 'tags: '            +    ( @projectTag               = @library["tags"].to_s                     ) + "\n"
-        @contents << 'sourceUrl: '       +    ( @projectUrl               = @library["sourceUrl"]                     ) + "\n"
-        @contents << 'maven: '                                                                                          + "\n"
-        @contents << '  groupId: '       +    ( @projectMavenGroupId      = @maven[0]                                 ) + "\n"
-        @contents << '  artifactId: '    +    ( @projectMavenArtifactId   = @maven[1]                                 ) + "\n"
-        @contents << '  version: '       +    ( @projectMavenVersion      = @maven[2]                                 ) + "\n"
-        @contents << 'creator: '                                                                                        + "\n"
-        @contents << '  name: '          +    ( @projectCreatorName       = @library["name"].split('/')[0]            ) + "\n"
-        @contents << '  email: '         +    ( @projectCreatorEmail      = ''                                        ) + "\n"
-        @contents << '  twitter: '       +    ( @projectCreatorTwitter    = ''                                        ) + "\n"
-        @contents << 'version: '         +    ( @projectVersion           = @projectMavenVersion                      ) + "\n"
-        @contents << 'license: '         +    ( @projectLicense           = addGithubLicense                          ) + "\n"
-        @contents << 'image: '           +    ( @projectImage             = ''                                        ) + "\n"
-        @contents << 'youtubeId: '       +    ( @projectYoutubeId         = ''                                        ) + "\n"
-        @contents << '---'                                                                                              + "\n"
+        @contents = '---'                                                                                                       + "\n"
+        @contents << 'layout: '          +    'post'                                                                            + "\n"
+        @contents << 'platform: '        +    ( @projectPlatform          = @library["platform"]                              ) + "\n"
+        @contents << 'title: '           +    ( @projectName              = @library["name"].split('/')[1]                    ) + "\n"
+        @contents << 'description: '     +    ( @projectDescription       = addDescription(@library["sourceUrl"])             ) + "\n"
+        @contents << 'category: '        +    ( @projectCategory          = @library["category"]                              ) + "\n"
+        @contents << 'tags: '            +    ( @projectTag               = @library["tags"].to_s                             ) + "\n"
+        @contents << 'sourceUrl: '       +    ( @projectUrl               = @library["sourceUrl"]                             ) + "\n"
+        @contents << 'maven: '                                                                                                  + "\n"
+        @contents << '  groupId: '       +    ( @projectMavenGroupId      = @maven[0]                                         ) + "\n"
+        @contents << '  artifactId: '    +    ( @projectMavenArtifactId   = @maven[1]                                         ) + "\n"
+        @contents << '  version: '       +    ( @projectMavenVersion      = @maven[2]                                         ) + "\n"
+        @contents << 'creator: '                                                                                                + "\n"
+        @contents << '  name: '          +    ( @projectCreatorName       = @library["name"].split('/')[0]                    ) + "\n"
+        @contents << '  email: '         +    ( @projectCreatorEmail      = ''                                                ) + "\n"
+        @contents << '  twitter: '       +    ( @projectCreatorTwitter    = ''                                                ) + "\n"
+        @contents << 'version: '         +    ( @projectVersion           = @projectMavenVersion                              ) + "\n"
+        @contents << 'license: '         +    ( @projectLicense           = addGithubLicense                                  ) + "\n"
+        @contents << 'image: '           +    ( @projectImage             = '/assets/img/libraries/' + @projectName + '.jpg'  ) + "\n"
+        @contents << 'youtubeId: '       +    ( @projectYoutubeId         = ''                                                ) + "\n"
+        @contents << '---'                                                                                                      + "\n"
 
         addGithubReadMe
         @dirname = File.basename(url, ".json")
         createFolder(@dirname)
         setFileName
         if saveFile
+          shareImgGenerate(@projectName, @projectDescription)
           success
         end
       rescue => @e

@@ -36,7 +36,6 @@
 
     <!-- RELATED LIBS -->
 
-    {% include _share-page.html %}
     <h2 style="margin-top:30px;margin-bottom:30px">Related Libraries</h2>
     {% assign relatedTag = page.tags | first %}
     {% assign relatedPosts = site.posts | where:"tags",relatedTag %}
