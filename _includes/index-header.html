@@ -1,7 +1,7 @@
 <header>
   <div class="jumbotron jumbotron-fluid frontpage-jumbotron">
     <div class="container text-center">
-      <img src="{{ site.baseurl }}/assets/kotlin-logo.svg" width="70" height="70" class="d-inline-block align-top kotlin-logo" alt="">
+      <img src="{{ site.baseurl }}/assets/kotlin-logo.svg" width="70" height="70" class="d-inline-block align-top kotlin-logo" alt="Awesome Kotlin Resources">
       <h1 class="display-3 site-name">{{ site.title }}</h1>
       <p class="lead">The ultimate resource list for your most loved coding language.</p>
       <div class="row">
@@ -14,7 +14,7 @@
           <div class="tag-list">
             {% for tag in site.tags | limit: '5' %}
               {% assign t = tag  | first %}
-              <a href="tag/{{ t }}">{{ t }}</a>,
+              <a href="/tag/{{ t }}">{{ t }}</a>,
             {% endfor %}
           </div>
         </div>

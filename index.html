@@ -6,7 +6,7 @@ description:
 <div class="container">
   <div class="row">
 
-    {% assign sortedPosts = paginator.posts | sort:'tags' %}
+    {% assign sortedPosts = paginator.posts | sort:'updated_at' | reverse %}
     {% for post in sortedPosts %}
         {% assign loopindex = forloop.index | modulo: 3 %}
         {% if loopindex == 1 %}
@@ -24,7 +24,7 @@ description:
                       {% if post.maven.version %}
                         <small class="text-muted" style="display:block">Version number: {{ post.maven.version }}</small>
                       {% endif %}
-                        <small class="text-muted" style="display:block">Last updated: {{ post.date | date: "%Y-%m-%d" }}</small>
+                        <small class="text-muted" style="display:block">Last updated: {{ post.updated_at | date: "%Y-%m-%d" }}</small>
                 </div>
                 <div class="card-footer">
                   {% for tag in post.tags %}
@@ -48,7 +48,7 @@ description:
                         {% if post.maven.version %}
                           <small class="text-muted" style="display:block">Version number: {{ post.maven.version }}</small>
                         {% endif %}
-                          <small class="text-muted" style="display:block">Last updated: {{ post.date | date: "%Y-%m-%d" }}</small>
+                          <small class="text-muted" style="display:block">Last updated: {{ post.updated_at | date: "%Y-%m-%d" }}</small>
                       </p>
                 </div>
                 <div class="card-footer">
