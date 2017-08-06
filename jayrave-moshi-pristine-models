@@ -1,0 +1,8 @@
+{ 
+  "name" : "jayrave/moshi-pristine-models", 
+  "sourceUrl" : "https://github.com/jayrave/moshi-pristine-models", 
+  "mavenMetaUrl" : "https://dl.bintray.com/jayrave/kotlin/com/jayrave/moshi-pristine-models/maven-metadata.xml", 
+  "platform" : "JVM", 
+  "category" : "library", 
+  "tags" : [ "json", "serialization", "android" ] 
+}
