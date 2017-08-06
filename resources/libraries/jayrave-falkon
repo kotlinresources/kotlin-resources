@@ -1,0 +1,8 @@
+{
+  "name" : "jayrave/falkon",
+  "sourceUrl" : "https://github.com/jayrave/falkon",
+  "mavenMetaUrl" : "https://dl.bintray.com/jayrave/android/com/jayrave/falkon/falkon-engine/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "database", "sql", "android" ]
+}
