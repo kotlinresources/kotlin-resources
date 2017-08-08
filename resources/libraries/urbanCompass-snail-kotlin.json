@@ -1,0 +1,8 @@
+{
+  "name" : "UrbanCompass/Snail-Kotlin",
+  "sourceUrl" : "https://github.com/UrbanCompass/Snail-Kotlin",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/UrbanCompass/Snail-Kotlin/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "functional" ]
+}

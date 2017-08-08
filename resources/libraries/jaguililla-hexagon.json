@@ -1,0 +1,8 @@
+{
+  "name" : "jaguililla/hexagon",
+  "sourceUrl" : "https://github.com/jaguililla/hexagon",
+  "mavenMetaUrl" : "https://dl.bintray.com/jamming/maven/co/there4/hexagon/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "web", "http" ]
+}

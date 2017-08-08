@@ -1,0 +1,8 @@
+{
+  "name" : "perwendel/spark-kotlin",
+  "sourceUrl" : "https://github.com/perwendel/spark-kotlin",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/sparkjava/spark-kotlin/maven-metadata.xml",
+  "platform" : "JS",
+  "category" : "library",
+  "tags" : [ "web", "http" ]
+}
