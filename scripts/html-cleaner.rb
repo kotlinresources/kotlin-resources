@@ -1,10 +1,11 @@
 class Clean
 
+  require 'bundler/setup'
   require 'open-uri'
   require 'uri'
   require 'net/https'
   require 'nokogiri'
-  require 'HTTParty'
+  require 'httparty'
   require 'rubygems'
   require 'pp'
 

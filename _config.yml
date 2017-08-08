@@ -14,6 +14,7 @@ words_per_minute: 200
 # include _Pages
 include: ["_pages"]
 exclude:
+  - vendor
   - resources
   - Gemfile
   - Gemfile.lock

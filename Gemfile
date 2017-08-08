@@ -8,7 +8,9 @@ gem 'jekyll-paginate'
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 gem 'rouge'
-gem "mini_magick"
+gem 'mini_magick'
+gem 'nokogiri'
+gem 'httparty'
 
 group :jekyll_plugins do
   gem 'algoliasearch-jekyll', '~> 0.8.0'

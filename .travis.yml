@@ -8,11 +8,11 @@ before_script:
 
 script: ./scripts/build.sh
 
-sudo: false
-
 after_success:
   - ./scripts/deploy.sh
 
 branches:
   only:
     - master
+
+sudo: false
