@@ -1,0 +1,8 @@
+{
+"name" : "rahulchowdhury/Mystique",
+"sourceUrl" : "https://github.com/rahulchowdhury/Mystique",
+"mavenMetaUrl" : "https://dl.bintray.com/rahulchowdhury/maven/co/upcurve/mystique/mystique/maven-metadata.xml",
+"platform" : "JVM",
+"category" : "library",
+"tags" : [ "android" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "danneu/kog",
+  "sourceUrl" : "https://github.com/danneu/kog",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/danneu/kog/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "web", "http" ]
+}

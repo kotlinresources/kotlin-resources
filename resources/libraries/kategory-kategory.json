@@ -1,0 +1,8 @@
+{
+  "name" : "kategory/kategory",
+  "sourceUrl" : "https://github.com/kategory/kategory",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/kategory/kategory/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "functional" ]
+}
