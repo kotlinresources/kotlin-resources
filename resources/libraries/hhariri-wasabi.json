@@ -1,8 +1,0 @@
-{
-  "name" : "hhariri/wasabi",
-  "sourceUrl" : "https://github.com/wasabifx/wasabi",
-  "mavenMetaUrl" : "https://dl.bintray.com/wasabifx/wasabifx/org/wasabifx/wasabi/maven-metadata.xml",
-  "platform" : "JVM",
-  "category" : "library",
-  "tags" : [ "http", "web" ]
-}
