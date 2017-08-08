@@ -1,5 +1,7 @@
 ---
 permalink: /404.html
+category: article
+title: 404
 ---
 <!DOCTYPE html>
 <html>
@@ -12,10 +14,10 @@ permalink: /404.html
 
     <header class="site-header">
 
-      <div class="jumbotron jumbotron-fluid" style="background-color:#7060A7">
+      <div class="jumbotron jumbotron-fluid page-jumbotron">
         <div class="container">
-          <h1 class="display-3">404, or not found</h1>
-          <span class="lead">in Kotlin Resources?</span>
+          <h1 class="display-3">🤔 404, or not found</h1>
+          <p class="lead">Discover other awesome libraries!</p>
         </div>
       </div>
 
@@ -23,13 +25,32 @@ permalink: /404.html
 
     <div class="container">
       <div class="row">
-        <div class="col">
-          Add here
-        </div>
+
+          {% assign sortedPosts = site.posts | sort:'updated_at' | reverse %}
+          {% for post in sortedPosts limit:3 %}
+
+                  <div class="col-md-6 col-lg-4 card-wrapper" style="display:flex" >
+                    <div class="card" style="width:100%">
+
+                      <div class="card-block">
+                            <h4 class="card-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.creator.name }} / {{ post.title }}</a></h4>
+                            <p class="card-text">{{ post.description }}</p>
+                            {% if post.maven.version %}
+                              <small class="text-muted" style="display:block">Version number: {{ post.maven.version }}</small>
+                            {% endif %}
+                              <small class="text-muted" style="display:block">Last updated: {{ post.updated_at | date: "%Y-%m-%d" }}</small>
+                      </div>
+                      <div class="card-footer">
+                        {% for tag in post.tags %}
+                          <a href="{{ site.baseurl }}/tag/{{ tag }}" class="btn btn-success btn-sm" role="button">{{ tag }}</a>
+                        {% endfor %}
+
+                  </div>
+                </div>
+              </div>
+          {% endfor %}
+          </div>
       </div>
-    </div>
-
-
     {% include main-footer.html %}
   </body>
 

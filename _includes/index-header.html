@@ -12,9 +12,9 @@
       <div class="row">
         <div class="col-lg-6 offset-lg-3">
           <div class="tag-list">
-            {% for tag in site.tags | limit: '5' %}
+            {% for tag in site.tags | limit: '5' | join: ', ' %}
               {% assign t = tag  | first %}
-              <a href="/tag/{{ t }}">{{ t }}</a>,
+              <a href="/tag/{{ t }}">{{ t }}</a>{% if forloop.last == false %},{% endif %}
             {% endfor %}
           </div>
         </div>

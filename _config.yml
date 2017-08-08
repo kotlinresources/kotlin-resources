@@ -47,7 +47,7 @@ author:
   avatar:
   bio:            "We're passionate about Kotlin."
   email:          hello@makery.co
-  twitter:        
+  twitter:
   facebook:       wearemakery
   github:         kotlinresources
   linkedin:       makerco
@@ -109,6 +109,7 @@ algolia:
     distinct: true
     attributesToIndex:
       - title
+      - description
       - categories
       - url
       - tags

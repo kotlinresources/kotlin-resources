@@ -1,4 +1,8 @@
+assets/img/libraries/*.jpg
+_posts/**/*.md
+website.zip
 _site
 .sass-cache
 .netlify
 .DS_Store
+js/application-beta.js
