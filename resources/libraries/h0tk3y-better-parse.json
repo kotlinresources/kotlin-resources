@@ -1,0 +1,8 @@
+{
+  "name" : "h0tk3y/better-parse",
+  "sourceUrl" : "https://github.com/h0tk3y/better-parse/",
+  "mavenMetaUrl" : "https://dl.bintray.com/hotkeytlt/maven/com/github/h0tk3y/betterParse/better-parse/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "parser", "parser-combinator", "lexer", "grammar" ]
+}
