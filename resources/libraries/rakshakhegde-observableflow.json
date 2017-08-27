@@ -1,0 +1,8 @@
+{
+  "name" : "rakshakhegde/observableflow",
+  "sourceUrl" : "https://github.com/rakshakhegde/ObservableFlow",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/rakshakhegde/ObservableFlow/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "functional", "reactive" ]
+}
