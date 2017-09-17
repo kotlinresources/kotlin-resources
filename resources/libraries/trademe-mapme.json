@@ -1,0 +1,11 @@
+{
+  "name": "trademe/mapme",
+  "sourceUrl": "https://github.com/TradeMe/MapMe",
+  "mavenMetaUrl": "https://dl.bintray.com/trademe/MapMe/nz/co/trademe/mapme/mapme/maven-metadata.xml",
+  "platform": "JVM",
+  "category": "library",
+  "tags": [
+    "android",
+    "ui"
+  ]
+}
