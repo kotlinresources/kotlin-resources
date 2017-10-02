@@ -1,0 +1,8 @@
+{
+  "name" : "willowtreeapps/assertk",
+  "sourceUrl" : "https://github.com/willowtreeapps/assertk",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/willowtreeapps/assertk/assertk/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "test" ]
+}
