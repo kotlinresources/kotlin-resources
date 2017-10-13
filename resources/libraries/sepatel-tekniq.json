@@ -4,5 +4,5 @@
   "mavenMetaUrl" : "https://repo1.maven.org/maven2/io/tekniq/tekniq-core/maven-metadata.xml",
   "platform" : "JVM",
   "category" : "library",
-  "tags" : [ "web" ]
+  "tags" : [ "web", "database", "sql", "backend", "http", "rest", "spark", "cache" ]
 }
