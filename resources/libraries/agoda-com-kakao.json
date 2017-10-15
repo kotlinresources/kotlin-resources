@@ -1,0 +1,8 @@
+{
+  "name" : "agoda-com/kakao",
+  "sourceUrl" : "https://github.com/agoda-com/kakao",
+  "mavenMetaUrl" : "https://dl.bintray.com/agoda/maven/com/agoda/kakao/kakao/:maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "test" ]
+}
