@@ -1,0 +1,8 @@
+{
+  "name" : "kizitonwose/time",
+  "sourceUrl" : "https://github.com/kizitonwose/time",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/kizitonwose/time/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "generic" ]
+}
