@@ -1,0 +1,8 @@
+{
+  "name" : "WindSekirun/RichUtilsKt",
+  "sourceUrl" : "https://github.com/WindSekirun/RichUtilsKt",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/WindSekirun/RichUtilsKt/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}
