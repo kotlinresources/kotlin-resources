@@ -1,0 +1,8 @@
+{
+  "name" : "kunalsheth/units-of-measure",
+  "sourceUrl" : "https://github.com/kunalsheth/units-of-measure",
+  "mavenMetaUrl" : "http://repo.kunalsheth.info/info/kunalsheth/units-of-measure/processor/maven-metadata-local.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "math", "tool", "generic" ]
+}
