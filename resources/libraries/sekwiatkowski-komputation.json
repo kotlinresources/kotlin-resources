@@ -1,0 +1,8 @@
+{
+  "name" : "sekwiatkowski/komputation",
+  "sourceUrl" : "https://github.com/sekwiatkowski/komputation",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/komputation/komputation/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "neural network", "ml", "nlp", "cuda" ]
+}
