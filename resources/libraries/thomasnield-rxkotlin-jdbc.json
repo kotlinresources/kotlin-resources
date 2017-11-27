@@ -1,0 +1,8 @@
+{
+  "name" : "thomasnield/rxkotlin-jdbc",
+  "sourceUrl" : "https://github.com/thomasnield/rxkotlin-jdbc",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/org/nield/rxkotlin-jdbc/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "functional", "database" ]
+}
