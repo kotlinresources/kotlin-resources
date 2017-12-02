@@ -1,0 +1,8 @@
+{
+  "name" : "robstoll/atrium",
+  "sourceUrl" : "https://github.com/robstoll/atrium",
+  "mavenMetaUrl" : "https://dl.bintray.com/robstoll/tutteli-jars/ch/tutteli/atrium-cc-en_UK-robstoll/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "test", "assertion-library" ]
+}
