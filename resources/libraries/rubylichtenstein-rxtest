@@ -1,0 +1,8 @@
+{
+  "name" : "RubyLichtenstein/RxTest",
+  "sourceUrl" : "https://github.com/RubyLichtenstein/RxTest/",
+  "mavenMetaUrl" : "https://dl.bintray.com/rubylichtenstein/RxTest/com/rubylichtenstein/rxtest/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : ["kotlin", "kotlin-dsl", "rxjava", "testing", "android"]
+}
