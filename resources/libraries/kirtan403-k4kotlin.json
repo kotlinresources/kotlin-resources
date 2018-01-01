@@ -1,0 +1,8 @@
+{
+  "name" : "kirtan403/k4kotlin",
+  "sourceUrl" : "https://github.com/kirtan403/K4Kotlin",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/kirtan403/k4kotlin/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "async" ]
+}
