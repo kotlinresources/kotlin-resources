@@ -1,0 +1,8 @@
+{
+  "name" : "hypeapps/NoiseView",
+  "sourceUrl" : "https://github.com/hypeapps/NoiseView",
+  "mavenMetaUrl" : "https://dl.bintray.com/hypeapps/maven/pl/hypeapp/noiseview/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "frontend", "ui" ]
+}
