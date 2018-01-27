@@ -1,0 +1,8 @@
+{
+  "name" : "hypeapps/MaterialTimelineView",
+  "sourceUrl" : "https://github.com/hypeapps/MaterialTimelineView",
+  "mavenMetaUrl" : "https://dl.bintray.com/hypeapps/maven/pl/hypeapp/materialtimelineview/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "frontend", "ui" ]
+}
