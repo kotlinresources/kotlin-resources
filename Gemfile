@@ -9,7 +9,7 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 gem 'rouge'
 gem 'mini_magick'
-gem 'nokogiri'
+gem 'nokogiri', '~> 1.8.1'
 gem 'httparty'
 
 group :jekyll_plugins do
