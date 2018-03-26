@@ -1,0 +1,8 @@
+{
+  "name" : "welvet/summer",
+  "sourceUrl" : "https://github.com/welvet/summer",
+  "mavenMetaUrl" : "https://dl.bintray.com/welvet/maven/summer/summer/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "di", "http", "sql" ]
+}
