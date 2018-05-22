@@ -1,0 +1,8 @@
+{
+  "name" : "mockk/mockk",
+  "sourceUrl" : "https://github.com/mockk/mockk",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/io/mockk/mockk/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "test" ]
+}
