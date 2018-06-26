@@ -1,0 +1,8 @@
+{
+  "name" : "pm-dev/gremlin-kotlin-ogm",
+  "sourceUrl" : "https://github.com/pm-dev/kotlin-gremlin-ogm",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/github/pm-dev/kotlin-gremlin-ogm/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "database", "nosql" ]
+}
