@@ -1,0 +1,8 @@
+{
+  "name" : "KenjiOhtsuka/harmonica",
+  "sourceUrl" : "https://github.com/KenjiOhtsuka/harmonica",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/KenjiOhtsuka/harmonica/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "database", "migration", "tool" ]
+}
