@@ -1,0 +1,8 @@
+{
+  "name" : "sofakingforever/repoverse-kotlin",
+  "sourceUrl" : "https://github.com/sofakingforever/repoverse-kotlin",
+  "mavenMetaUrl" : "https://dl.bintray.com/sofakingforever/repoverse/com/sofakingforever/repoverse/repoverse/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "tool" ]
+}

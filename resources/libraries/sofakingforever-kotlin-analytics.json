@@ -1,0 +1,8 @@
+{
+  "name" : "sofakingforever/solid-kotlin-analytics",
+  "sourceUrl" : "https://github.com/sofakingforever/solid-kotlin-analytics",
+  "mavenMetaUrl" : "https://dl.bintray.com/sofakingforever/analytics/com/sofakingforever/analytics/kotlin-analytics/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "tool", "android" ]
+}
