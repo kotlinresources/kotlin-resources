@@ -1,0 +1,8 @@
+{
+  "name" : "JcMinarro/Philology",
+  "sourceUrl" : "https://github.com/JcMinarro/Philology",
+  "mavenMetaUrl" : "https://dl.bintray.com/jcminarro/maven/com/jcminarro/Philology/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "ui" ]
+}
