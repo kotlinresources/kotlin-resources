@@ -1,0 +1,8 @@
+{
+  "name" : "sofakingforever/animated-stars-android",
+  "sourceUrl" : "https://github.com/sofakingforever/animated-stars-android",
+  "mavenMetaUrl" : "https://dl.bintray.com/sofakingforever/libraries/com/sofakingforever/libraries/animated-stars-android/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "ui" ]
+}
