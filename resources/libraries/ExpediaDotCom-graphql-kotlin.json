@@ -1,0 +1,13 @@
+{
+  "name" : "ExpediaDotCom/graphql-kotlin",
+  "sourceUrl" : "https://github.com/ExpediaDotCom/graphql-kotlin",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/expedia/www/graphql-kotlin/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [
+    "graphql",
+    "tool",
+    "graphql-java",
+    "schema"
+  ]
+}
