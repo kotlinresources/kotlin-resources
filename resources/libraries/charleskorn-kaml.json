@@ -1,0 +1,8 @@
+{
+  "name" : "charleskorn/kaml",
+  "sourceUrl" : "https://github.com/charleskorn/kaml",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/charleskorn/kaml/kaml/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "serialization", "yaml" ]
+}
