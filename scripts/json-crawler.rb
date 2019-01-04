@@ -74,8 +74,8 @@ class Crawl
   def addDescription(projectUrl)
     getDescription(projectUrl)
 
-    if @document.css('div.repository-meta-content span')[0]
-      @tempDescription = @document.css('div.repository-meta-content span')[0].text.gsub( ':', ' -' ).strip
+    if @document.css('div.repository-content span')[0]
+      @tempDescription = @document.css('div.repository-content span')[0].text.gsub( ':', ' -' ).strip
     else
       @tempDescription =""
     end
