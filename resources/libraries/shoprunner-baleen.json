@@ -1,0 +1,8 @@
+{
+  "name" : "ShopRunner/baleen",
+  "sourceUrl" : "https://github.com/ShopRunner/baleen",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/shoprunner/baleen/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "validation" ]
+}
