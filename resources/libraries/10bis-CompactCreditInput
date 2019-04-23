@@ -1,0 +1,8 @@
+{
+  "name" : "10bis/CompactCreditInput",
+  "sourceUrl" : "https://github.com/10bis/CompactCreditInput",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/10bis/compactCreditInput/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [Android]
+}
