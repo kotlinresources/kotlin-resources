@@ -1,0 +1,9 @@
+{
+    "name" : "ReactComponentKit/AndroidReactComponentKit",
+    "sourceUrl" : "https://github.com/ReactComponentKit/AndroidReactComponentKit",
+    "mavenMetaUrl" : "https://dl.bintray.com/skyfe79/maven/com/github/skyfe79/android/reactcomponentkit/maven-metadata.xml",
+    "platform" : "JVM",
+    "category" : "library",
+    "tags" : [ "android", "ui", "reactive" ]
+  }
+  
