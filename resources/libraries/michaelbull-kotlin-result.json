@@ -1,0 +1,8 @@
+{
+  "name": "michaelbull/kotlin-result",
+  "sourceUrl": "https://github.com/michaelbull/kotlin-result",
+  "mavenMetaUrl": "https://dl.bintray.com/michaelbull/maven/com/michael-bull/kotlin-result/kotlin-result/maven-metadata.xml",
+  "platform": "JVM",
+  "category": "library",
+  "tags": [ "functional", "generic", "result", "either" ]
+}
