@@ -1,0 +1,8 @@
+{
+  "name" : "mhashim6/Pi4K",
+  "sourceUrl" : "https://github.com/mhashim6/Pi4K",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/mhashim6/Pi4K/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : ["iot", "Raspberry Pi", "dsl", "gpio"]
+}
