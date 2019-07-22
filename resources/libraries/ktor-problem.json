@@ -1,0 +1,8 @@
+{
+  "name" : "tyntec/ktor-problem",
+  "sourceUrl" : "https://github.com/tyntec/ktor-problem",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/tyntec/ktor-problem/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "ktor", "http", "backend", "web", "rest", "rfc7807" ]
+}
