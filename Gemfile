@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'html-proofer'
-gem 'jekyll', '~> 3.4.3'
+gem 'jekyll', '~> 3.6.3'
 gem 'jekyll-archives'
 gem 'jekyll-gist'
 gem 'jekyll-paginate'
