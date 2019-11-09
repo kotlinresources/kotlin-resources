@@ -1,0 +1,8 @@
+{
+  "name" : "mikepenz/FastAdapter",
+  "sourceUrl" : "https://github.com/mikepenz/FastAdapter",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/mikepenz/fastadapter/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "afollestad/material-dialogs",
+  "sourceUrl" : "https://github.com/afollestad/material-dialogs",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/afollestad/material-dialogs/material-dialogs/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "ui" ]
+}

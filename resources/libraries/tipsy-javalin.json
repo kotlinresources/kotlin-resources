@@ -1,0 +1,8 @@
+{
+  "name" : "tipsy/javalin",
+  "sourceUrl" : "https://github.com/tipsy/javalin",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/io/javalin/javalin/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "web", "async", "http" ]
+}

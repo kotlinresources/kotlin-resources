@@ -1,0 +1,8 @@
+{
+  "name" : "arrow-kt-arrow",
+  "sourceUrl" : "https://github.com/arrow-kt/arrow",
+  "mavenMetaUrl" : "https://dl.bintray.com/arrow-kt/arrow-kt/io/arrow-kt/arrow-core/:maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "functional", "universal" ]
+}

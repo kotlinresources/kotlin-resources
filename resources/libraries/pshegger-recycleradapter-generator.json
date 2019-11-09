@@ -1,0 +1,8 @@
+{
+  "name" : "PsHegger/recycleradapter-generator",
+  "sourceUrl" : "https://github.com/PsHegger/recycleradapter-generator",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/PsHegger/recycleradapter-generator/recycleradapter-generator/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android" ]
+}

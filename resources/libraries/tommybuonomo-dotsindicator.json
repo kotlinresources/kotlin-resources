@@ -1,0 +1,8 @@
+{
+  "name" : "tommybuonomo/dotsindicator",
+  "sourceUrl" : "https://github.com/tommybuonomo/dotsindicator",
+  "mavenMetaUrl" : "https://dl.bintray.com/tbuonomo/maven/com/tbuonomo/andrui/viewpagerdotsindicator/:maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "ui" ]
+}

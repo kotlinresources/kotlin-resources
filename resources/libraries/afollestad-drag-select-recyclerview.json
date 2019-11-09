@@ -1,0 +1,8 @@
+{
+  "name" : "afollestad/drag-select-recyclerview",
+  "sourceUrl" : "https://github.com/afollestad/drag-select-recyclerview",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/afollestad/drag-select-recyclerview/drag-select-recyclerview/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "ui" ]
+}
