@@ -1,0 +1,8 @@
+{
+  "name" : "Miha-x64/Lychee",
+  "sourceUrl" : "https://github.com/Miha-x64/Lychee",
+  "mavenMetaUrl" : "https://dl.bintray.com/miha-x64/maven/net/aquadc/properties/properties/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "async", "database", "desktop", "json", "reactive", "serialization", "sql", "nosql", "ui" ]
+}
