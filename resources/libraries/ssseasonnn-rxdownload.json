@@ -1,0 +1,8 @@
+{
+  "name" : "ssseasonnn/RxDownload",
+  "sourceUrl" : "https://github.com/ssseasonnn/RxDownload",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/ssseasonnn/RxDownload/RxDownload/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "reactive", "tool" ]
+}

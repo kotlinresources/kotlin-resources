@@ -1,0 +1,8 @@
+{
+  "name" : "square/okio",
+  "sourceUrl" : "https://github.com/square/okio",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/squareup/okio/okio/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "io" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "spekframework/spek",
+  "sourceUrl" : "https://github.com/spekframework/spek",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/org/spekframework/spek2/spek-dsl-metadata/maven-metadata.xml",
+  "platform" : "JVM | JS | Native",
+  "category" : "library",
+  "tags" : [ "test", "tool" ]
+}

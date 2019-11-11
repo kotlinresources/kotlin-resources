@@ -1,0 +1,8 @@
+{
+  "name" : "afollestad/aesthetic",
+  "sourceUrl" : "https://github.com/afollestad/aesthetic",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/afollestad/aesthetic/aesthetic/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "ui" ]
+}
