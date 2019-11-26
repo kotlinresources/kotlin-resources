@@ -1,0 +1,8 @@
+{
+  "name" : "htdangkhoa/kdux",
+  "sourceUrl" : "https://github.com/htdangkhoa/kdux",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/htdangkhoa/kdux/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android", "functional" ]
+}
