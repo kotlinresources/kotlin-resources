@@ -1,0 +1,8 @@
+{
+  "name" : "paslavsky/ktor-flyway",
+  "sourceUrl" : "https://github.com/paslavsky/exktor",
+  "mavenMetaUrl" : "https://dl.bintray.com/paslavsky/maven/net.paslavsky/ktor-flyway/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "backend", "web", "ktor", "sql", "flyway" ]
+}
