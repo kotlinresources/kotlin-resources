@@ -1,7 +1,7 @@
 {
   "name" : "paslavsky/ktor-exposed",
   "sourceUrl" : "https://github.com/paslavsky/exktor",
-  "mavenMetaUrl" : "https://dl.bintray.com/paslavsky/maven/net.paslavsky/ktor-exposed/maven-metadata.xml",
+  "mavenMetaUrl" : "https://dl.bintray.com/paslavsky/maven/net/paslavsky/ktor-exposed/maven-metadata.xml",
   "platform" : "JVM",
   "category" : "library",
   "tags" : [ "backend", "web", "ktor", "sql", "exposed" ]
