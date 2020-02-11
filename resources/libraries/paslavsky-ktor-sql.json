@@ -1,0 +1,8 @@
+{
+  "name" : "paslavsky/ktor-sql",
+  "sourceUrl" : "https://github.com/paslavsky/exktor",
+  "mavenMetaUrl" : "https://dl.bintray.com/paslavsky/maven/net/paslavsky/ktor-sql/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "backend", "web", "ktor", "sql", "HikariCP" ]
+}
