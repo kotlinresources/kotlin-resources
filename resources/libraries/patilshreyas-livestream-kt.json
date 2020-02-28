@@ -1,7 +1,7 @@
 {
   "name" : "PatilShreyas/LiveStream-kt",
   "sourceUrl" : "https://github.com/PatilShreyas/LiveStream-kt",
-  "mavenMetaUrl" : "http://dl.bintray.com/patilshreyas/maven/dev/shreyaspatil/LiveStream-kt/maven-metadata.xml",
+  "mavenMetaUrl" : "https://dl.bintray.com/patilshreyas/maven/dev/shreyaspatil/LiveStream-kt/maven-metadata.xml",
   "platform" : "JVM",
   "category" : "library",
   "tags" : [ "android", "generic", "io", ]
