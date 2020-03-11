@@ -1,0 +1,8 @@
+{
+  "name" : "mkohm/detekt-hint",
+  "sourceUrl" : "https://github.com/mkohm/detekt-hint",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/io/github/mkohm/detekt-hint/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "tool" ]
+}
