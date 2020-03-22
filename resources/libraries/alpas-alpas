@@ -1,0 +1,8 @@
+{
+  "name" : "alpas/alpas",
+  "sourceUrl" : "https://github.com/alpas/alpas",
+  "mavenMetaUrl" : "https://jitpack.io/com/github/alpas/alpas/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "web", "async", "http" ]
+}
