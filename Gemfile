@@ -13,5 +13,5 @@ gem 'nokogiri', '~> 1.10.8'
 gem 'httparty'
 
 group :jekyll_plugins do
-  gem 'algoliasearch-jekyll', '~> 0.8.0'
+  gem 'jekyll-algolia', '~> 1.0'
 end
