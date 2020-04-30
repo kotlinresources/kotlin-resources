@@ -24,7 +24,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: assets/kotlin-resources-fb-share.png
+      image: https://www.kotlinresources.com/assets/kotlin-resources-fb-share.png
 
 
 # Permalink settings
@@ -33,7 +33,7 @@ relative_permalinks: false
 
 # Gems
 gems:
-  - algoliasearch-jekyll
+  - jekyll-algolia
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-archives
