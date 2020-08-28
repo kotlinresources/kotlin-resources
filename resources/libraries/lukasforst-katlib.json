@@ -1,0 +1,8 @@
+{
+  "name" : "LukasForst/katlib",
+  "sourceUrl" : "https://github.com/LukasForst/katlib",
+  "mavenMetaUrl" : "https://dl.bintray.com/lukas-forst/jvm-packages/pw/forst/tools/katlib/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "functional", "generic", "tool", "extensions" ]
+}
