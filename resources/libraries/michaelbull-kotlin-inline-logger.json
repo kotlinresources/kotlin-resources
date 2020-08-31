@@ -1,7 +1,7 @@
 {
   "name": "michaelbull/kotlin-inline-logger",
   "sourceUrl": "https://github.com/michaelbull/kotlin-inline-logger",
-  "mavenMetaUrl": "https://dl.bintray.com/michaelbull/maven/com/michael-bull/kotlin-inline-logger/kotlin-inline-logger-jvm/maven-metadata.xml",
+  "mavenMetaUrl": "https://repo1.maven.org/maven2/com/michael-bull/kotlin-inline-logger/kotlin-inline-logger/maven-metadata.xml",
   "platform": "JVM",
   "category": "library",
   "tags": [ "generic", "io", "tool", "logger", "logging" ]
