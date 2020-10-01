@@ -1,0 +1,8 @@
+{
+  "name" : "themichailov/kache",
+  "sourceUrl" : "https://github.com/themichailov/kache",
+  "mavenMetaUrl" : "https://jitpack.io/com/themichailov/kache/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "cache" ]
+}
