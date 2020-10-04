@@ -1,0 +1,8 @@
+{
+  "name" : "vicpinm/krealmextensions",
+  "sourceUrl" : "https://github.com/vicpinm/Kotlin-Realm-Extensions",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/github/vicpinm/krealmextensions/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "android","database" ]
+}
