@@ -1,0 +1,8 @@
+{
+  "name" : "justwrote/kjob",
+  "sourceUrl" : "https://github.com/justwrote/kjob",
+  "mavenMetaUrl" : "https://dl.bintray.com/justwrote/maven/it/justwrote/kjob-core/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "jobs", "job-scheduler", "cron" ]
+}
