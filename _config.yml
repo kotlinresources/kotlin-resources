@@ -31,8 +31,8 @@ defaults:
 permalink: /:categories/:title/
 relative_permalinks: false
 
-# Gems
-gems:
+# Plugins
+plugins:
   - jekyll-algolia
   - jekyll-seo-tag
   - jekyll-sitemap
