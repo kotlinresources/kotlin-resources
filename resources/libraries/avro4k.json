@@ -1,7 +1,7 @@
 {
   "name" : "avro-kotlin/avro4k",
   "sourceUrl" : "https://github.com/avro-kotlin/avro4k",
-  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com.sksamuel/avro4k-core/maven-metadata.xml",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/com/sksamuel/avro4k/avro4k-core/maven-metadata.xml",
   "platform" : "JVM",
   "category" : "library",
   "tags" : [ "serialization" ]
