@@ -108,7 +108,7 @@ algolia:
     - index.html
   settings:
     distinct: true
-    attributesToIndex:
+    searchableAttributes:
       - title
       - description
       - categories

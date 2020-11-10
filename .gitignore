@@ -6,3 +6,4 @@ _site
 .netlify
 .DS_Store
 js/application-beta.js
+vendor
