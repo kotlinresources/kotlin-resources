@@ -110,7 +110,7 @@ algolia:
     distinct: true
     searchableAttributes:
       - title
-      # - description
+      - description
       - categories
       - url
       - tags
