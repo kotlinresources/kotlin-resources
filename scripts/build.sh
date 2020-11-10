@@ -2,12 +2,12 @@
 
 set -e
 
-cd scripts && (ruby json-crawler.rb || true) && cd ..
+cd $TRAVIS_BUILD_DIR/scripts && ruby json-crawler.rb
 
-bundle exec jekyll build
+cd $TRAVIS_BUILD_DIR && bundle exec jekyll build
 
-cd scripts && (ruby html-cleaner.rb || true) && cd ..
+cd $TRAVIS_BUILD_DIR/scripts && ruby html-cleaner.rb
 
-bundle exec jekyll algolia push
+cd $TRAVIS_BUILD_DIR && bundle exec jekyll algolia push
 
 # bundle exec htmlproofer ./_site --disable-external
