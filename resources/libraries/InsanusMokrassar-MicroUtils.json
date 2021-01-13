@@ -1,7 +1,7 @@
 {
   "name" : "InsanusMokrassar/MicroUtils",
   "sourceUrl" : "https://github.com/InsanusMokrassar/MicroUtils",
-  "mavenMetaUrl" : "https://jcenter.bintray.com/dev/inmo/micro_utils.common/:maven-metadata.xml",
+  "mavenMetaUrl" : "https://jcenter.bintray.com/dev/inmo/micro_utils.common/maven-metadata.xml",
   "platform" : "JVM | JS | Android",
   "category" : "library",
   "tags" : [ "coroutines", "serialization", "android", "universal", "database" ]
