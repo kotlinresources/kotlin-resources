@@ -1,5 +1,5 @@
 {
-  "name" : "{author}/{library}",
+  "name" : "InsanusMokrassar/MicroUtils",
   "sourceUrl" : "https://github.com/InsanusMokrassar/MicroUtils",
   "mavenMetaUrl" : "https://jcenter.bintray.com/dev/inmo/micro_utils.common/:maven-metadata.xml",
   "platform" : "JVM | JS | Android",
