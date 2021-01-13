@@ -1,0 +1,7 @@
+{
+  "name" : "InsanusMokrassar/KotlinMultiplatformProjectTemplate",
+  "sourceUrl" : "https://github.com/InsanusMokrassar/KotlinMultiplatformProjectTemplate",
+  "platform" : "Multiplatform",
+  "category" : "libraries",
+  "tags" : [ "template" ]
+}
