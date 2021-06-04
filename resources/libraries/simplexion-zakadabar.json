@@ -1,0 +1,8 @@
+{
+  "name" : "simplexion/zakadabar",
+  "sourceUrl" : "https://zakadabar.io",
+  "mavenMetaUrl" : "https://repo1.maven.org/maven2/hu/simplexion/zakadabar/core/maven-metadata.xml",
+  "platform" : "{JVM | JS}",
+  "category" : "library",
+  "tags" : [ "multiplatform", "frontend", "backend", "ui",  "web", "android" ]
+}
