@@ -1,0 +1,8 @@
+{
+    "name": "nycodeghg/bcrypt",
+    "sourceUrl": "https://github.com/NyCodeGHG/bcrypt",
+    "mavenMetaUrl": "https://repo1.maven.org/maven2/de/nycode/bcrypt/maven-metadata.xml",
+    "platform": "JVM | JS",
+    "category": "library",
+    "tags": [ "hashing", "crypto" ]
+}
