@@ -1,0 +1,8 @@
+{
+  "name" : "InsanusMokrassar/krontab",
+  "sourceUrl" : "https://github.com/InsanusMokrassar/krontab",
+  "mavenMetaUrl" : "https://repo.maven.apache.org/maven2/dev/inmo/krontab/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : [ "backend","universal","async","tool" ]
+}
