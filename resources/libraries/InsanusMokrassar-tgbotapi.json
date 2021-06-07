@@ -1,0 +1,8 @@
+{
+  "name" : "InsanusMokrassar/tgbotapi",
+  "sourceUrl" : "https://github.com/InsanusMokrassar/TelegramBotAPI",
+  "mavenMetaUrl" : "https://repo.maven.apache.org/maven2/dev/inmo/tgbotapi/maven-metadata.xml",
+  "platform" : "JVM",
+  "category" : "library",
+  "tags" : ["backend","telegram","telegram-bot-api","tool"]
+}
